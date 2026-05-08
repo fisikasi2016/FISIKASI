@@ -6330,7 +6330,7 @@ const pwaCatalog = [
   {
     id: "formuapp",
     title: "FormuApp",
-    description: "Formulazioarekin praktikatzeko PWA.",
+    description: "Formulazioarekin praktikatzeko Web Aplikazioa.",
     category: "Fisika eta Kimika",
     level: "DBH / Batxilergoa",
     url: "https://fisikasi2016.github.io/formuapp/",
@@ -6360,7 +6360,7 @@ const pwaCatalog = [
   {
     id: "aditzapp-azterketa",
     title: "AditzApp Azterketa",
-    description: "Aditzekin azterketa moduko praktika egiteko PWA.",
+    description: "Aditzekin azterketa moduko praktika egiteko Web Aplikazioa.",
     category: "Euskara",
     level: "DBH",
     url: "https://fisikasi2016.github.io/aditzapp-azterketa/",
@@ -6523,19 +6523,6 @@ const teacherResourcesData = [
         url: "https://drive.google.com/file/d/1yRLAShHb2y4HDlSOnyz6cHgZDQpH62Kv/view?usp=sharing",
         resourceType: "dokumentua",
         description: "Bideoetan ebatzita dauden ariketen enuntziatuak"
-      }
-    ]
-  },
-  {
-    type: "folder",
-    title: "Atomoak",
-    children: [
-      {
-        type: "link",
-        title: "Atomoen azalpena (bideoa)",
-        url: "https://youtu.be/Y6pyDRIyyoo",
-        resourceType: "bideoa",
-        description: "Atomoen oinarrizko azalpena"
       }
     ]
   },
