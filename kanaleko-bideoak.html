@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="eu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kanaleko Bideoak | fisikasi</title>
+  </head>
+  <body>
+    <main class="container subpage">
+      <a class="back-link" href="index.html">← Hasierara itzuli</a>
+
+      <section class="page-hero">
+        <h1>Kanaleko Bideoak</h1>
+        <p class="page-intro">
+          Aukeratu irakasgaia eta maila. Ondoren, gaien botoiak agertuko dira.
+          Gaia aukeratzean, dagokion bideo-zerrenda ikusiko duzu.
+        </p>
+      </section>
+
+      <section class="filter-card">
+        <div class="filter-grid">
+          <div class="field-group">
+            <label for="subject-select">Irakasgaia</label>
+            <select id="subject-select">
+              <option value="">-- Hautatu irakasgaia --</option>
+              <option value="Fisika eta Kimika">Fisika eta Kimika</option>
+              <option value="Fisika">Fisika</option>
+              <option value="Kimika">Kimika</option>
+              <option value="Matematika">Matematika</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label for="level-select">Maila</label>
+            <select id="level-select">
+              <option value="">-- Hautatu maila --</option>
+              <option value="DBH">DBH</option>
+              <option value="BATXI1">BATXI1</option>
+              <option value="BATXI2">BATXI2</option>
+              <option value="GRADUA">GRADUA</option>
+            </select>
+          </div>
+        </div>
+
+        <button id="search-btn" class="action-button hidden" type="button">
+          Bilatu
+        </button>
+      </section>
+
+      <section id="topics-section" class="results-card hidden">
+        <div class="results-header">
+          <h2 id="results-title">Gaiak</h2>
+          <p id="results-summary"></p>
+        </div>
+        <div id="topics-container" class="topics-grid"></div>
+      </section>
+
+      <section id="videos-section" class="results-card hidden">
+        <div class="results-header">
+          <h2 id="videos-title">Bideoak</h2>
+          <p id="videos-summary"></p>
+        </div>
+        <div id="videos-container" class="videos-list"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

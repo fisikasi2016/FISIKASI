@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="eu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Irakasleentzako Baliabideak | fisikasi</title>
+  </head>
+  <body>
+    <main class="container subpage">
+      <a class="back-link" href="index.html">← Hasierara itzuli</a>
+
+      <section class="page-hero">
+        <h1>Irakasleentzako Baliabideak</h1>
+        <p class="page-intro">
+          Hemen intereseko materialak, ariketa sortak aurki ditzakezu. Horretaz aparte, gomendatzen ditudan liburuak, web orrialdeak eta youtubeko bideoak zein kanalak aurki ditzakezu.
+      </section>
+
+      <!-- <section class="results-card">
+        <div id="teacher-resources-container" class="resources-tree"></div>
+      </section> -->
+      <section class="results-card teacher-section">
+        <div class="results-header">
+          <h2>Irakaslearentzako materialak</h2>
+          <p>Karpetak ireki eta materialak aukeratu.</p>
+        </div>
+        <div id="teacher-resources-container" class="resources-tree"></div>
+      </section>
+
+      <section class="results-card teacher-section">
+        <div class="results-header">
+          <h2>Klasean erabiltzeko bideoak</h2>
+          <p> Klaseetan zeinbat kontzeptu azaltzea zaila izaten da arbela eta rotulkiekin. Atal honen helburua klaseko azalpenetan lagungarri izan daitezkeen simulazioak eta bideoak izatea da. Ez dute azalpenik, irakasle bakoitzak azal dezake interesatzen zaiona bideoa proiektatzen duen bitartean.
+            </p>
+        </div>
+        <div id="classroom-video-topics" class="topics-grid"></div>
+      </section>
+
+      <section id="classroom-videos-section" class="results-card teacher-section hidden">
+        <div class="results-header">
+          <h2 id="classroom-videos-title">Bideoak</h2>
+          <p id="classroom-videos-summary"></p>
+        </div>
+        <div id="classroom-videos-container" class="videos-list"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
