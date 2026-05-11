@@ -1,7 +1,7 @@
 const videoData = {
   DBH: {
     "Fisika eta Kimika": {
-      ATOMOAK: [
+      "1. ATOMOAK": [
         {
           title: "Zenbaki Atomikoa eta Masa Zenbakia",
           url: "https://youtu.be/qqgkNCz2IfQ",
@@ -143,7 +143,7 @@ const videoData = {
           type: "teoria"
         },
       ],
-      "EREDU ATOMIKOAK": [
+      "2. EREDU ATOMIKOAK": [
         {
           title: "Eredu Atomikoak",
           url: "https://youtu.be/EZWlLvY6qAc",
@@ -152,88 +152,30 @@ const videoData = {
           type: "teoria"
         }
       ],
-      "ZENBAKI KUANTIKOAK": [
+      "3. LOTURA KIMIKOA": [
         {
-          title: "Zenbaki kuantikoak (sarrera)",
-          url: "https://youtu.be/B_RBmmNwB10",
-          description: "Zenbaki kuantikoen oinarrizko azalpena.",
-          duration: "9:41",
+          title: "Lotura metalikoa",
+          url: "https://youtu.be/XUimBF2PFIQ",
+          description: "Lotura metalikoaren azalpena.",
+          duration: "5:30",
           type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (1. ariketa)",
-          url: "https://youtu.be/2vjKEUKxLKA",
-          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
-          duration: "8:37",
-          type: "ariketa"
+          title: "Lotura kobalentea",
+          url: "https://youtu.be/Lp94Y338M3w",
+          description: "Lotura kobalentearen azalpena.",
+          duration: "11:30",
+          type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (2. ariketa)",
-          url: "https://youtu.be/beT3JkpTU8A",
-          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
-          duration: "7:31",
-          type: "ariketa"
-        },
-        {
-          title: "Zenbaki kuantikoak (3. ariketa)",
-          url: "https://youtu.be/mMxTp3z6wu8",
-          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
-          duration: "13:36",
-          type: "ariketa"
+          title: "Lotura ionikoa",
+          url: "https://youtu.be/iY-9dGQcFRc",
+          description: "Lotura ionikoaren azalpena.",
+          duration: "12:03",
+          type: "teoria"
         }
       ],
-      GASAK: [
-        {
-          title: "Gasen nahasteak (1. ariketa)",
-          url: "https://youtu.be/HRk1ekw7bqo",
-          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
-          duration: "4:24",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (2. ariketa)",
-          url: "https://youtu.be/jLFofreM12s",
-          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
-          duration: "2:40",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (3. ariketa)",
-          url: "https://youtu.be/WJRbL7rIU4Y",
-          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
-          duration: "5:31",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (4. ariketa)",
-          url: "https://youtu.be/HhMJXw3Va9A",
-          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
-          duration: "3:27",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (5. ariketa)",
-          url: "https://youtu.be/DE9DXs2Jpkg",
-          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
-          duration: "5:26",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (6. ariketa)",
-          url: "https://youtu.be/7eAwi7DJiLY",
-          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
-          duration: "6:53",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (7. ariketa)",
-          url: "https://youtu.be/5ERujW0g0eM",
-          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
-          duration: "4:41",
-          type: "ariketa"
-        }
-      ],
-      "ERREAKZIO KIMIKOAK": [
+      "4. ERREAKZIO KIMIKOAK": [
         {
           title: "Ekuazio kimikoak 1",
           url: "https://youtu.be/rE2fcvvfhEA",
@@ -452,7 +394,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      FORMULAZIOA: [{
+      "5. FORMULAZIOA": [{
           title: "Formulazioa 1: Konposatu kimikoak",
           url: "https://youtu.be/O-t8mW5ODVA",
           description: "Konposatu kimikoen oinarrizko azalpena eta ariketak.",
@@ -593,30 +535,88 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
         ],
-      "LOTURA KIMIKOA": [
+      "6. ZENBAKI KUANTIKOAK": [
         {
-          title: "Lotura metalikoa",
-          url: "https://youtu.be/XUimBF2PFIQ",
-          description: "Lotura metalikoaren azalpena.",
-          duration: "5:30",
+          title: "Zenbaki kuantikoak (sarrera)",
+          url: "https://youtu.be/B_RBmmNwB10",
+          description: "Zenbaki kuantikoen oinarrizko azalpena.",
+          duration: "9:41",
           type: "teoria"
         },
         {
-          title: "Lotura kobalentea",
-          url: "https://youtu.be/Lp94Y338M3w",
-          description: "Lotura kobalentearen azalpena.",
-          duration: "11:30",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (1. ariketa)",
+          url: "https://youtu.be/2vjKEUKxLKA",
+          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
+          duration: "8:37",
+          type: "ariketa"
         },
         {
-          title: "Lotura ionikoa",
-          url: "https://youtu.be/iY-9dGQcFRc",
-          description: "Lotura ionikoaren azalpena.",
-          duration: "12:03",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (2. ariketa)",
+          url: "https://youtu.be/beT3JkpTU8A",
+          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
+          duration: "7:31",
+          type: "ariketa"
+        },
+        {
+          title: "Zenbaki kuantikoak (3. ariketa)",
+          url: "https://youtu.be/mMxTp3z6wu8",
+          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
+          duration: "13:36",
+          type: "ariketa"
         }
       ],
-      ZINEMATIKA: [
+      "7. GASAK": [
+        {
+          title: "Gasen nahasteak (1. ariketa)",
+          url: "https://youtu.be/HRk1ekw7bqo",
+          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
+          duration: "4:24",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (2. ariketa)",
+          url: "https://youtu.be/jLFofreM12s",
+          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
+          duration: "2:40",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (3. ariketa)",
+          url: "https://youtu.be/WJRbL7rIU4Y",
+          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
+          duration: "5:31",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (4. ariketa)",
+          url: "https://youtu.be/HhMJXw3Va9A",
+          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
+          duration: "3:27",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (5. ariketa)",
+          url: "https://youtu.be/DE9DXs2Jpkg",
+          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
+          duration: "5:26",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (6. ariketa)",
+          url: "https://youtu.be/7eAwi7DJiLY",
+          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
+          duration: "6:53",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (7. ariketa)",
+          url: "https://youtu.be/5ERujW0g0eM",
+          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
+          duration: "4:41",
+          type: "ariketa"
+        }
+      ],
+      "8. ZINEMATIKA": [
         {
           title: "Zinematika 1: Higidura zuzen uniformea (HZU)",
           url: "https://youtu.be/j0-MLShaYyY",
@@ -667,7 +667,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      DINAMIKA: [{
+      "9. DINAMIKA": [{
           title: "Dinamika 1: Pisua",
           url: "https://youtu.be/FSw1NP2_Z0I",
           description: "Pisua kontzeptua eta ariketak.",
@@ -759,7 +759,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
         ],
-      ENERGIAK: [
+      "10. ENERGIAK": [
         {
           title: "Lana eta energia 1 (lana)",
           url: "https://youtu.be/QSLC7641CmY",
@@ -794,12 +794,47 @@ const videoData = {
           description: "Marruskadurarekin lotutako arazoak.",
           duration: "9:18",
           type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (erorketa askean). Kualitatiboa",
+          url: "https://youtu.be/nJ7cJyAXCxY",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Erorketa askea). Kuantitatiboa",
+          url: "https://youtu.be/cZOvEURPgF4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Plano Inklinatuan)",
+          url: "https://youtu.be/FWVsKR4uSxw",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura)",
+          url: "https://youtu.be/oVb-jyD3ac4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura Plano Inklinatuan)",
+          url: "https://youtu.be/fSA5v0SXF3s",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
         }
         ]
     },
 
     Fisika: {
-      ZINEMATIKA: [
+      "1. ZINEMATIKA": [
         {
           title: "Zinematika 1: Higidura zuzen uniformea (HZU)",
           url: "https://youtu.be/j0-MLShaYyY",
@@ -850,7 +885,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      DINAMIKA: [{
+      "2. DINAMIKA": [{
           title: "Dinamika 1: Pisua",
           url: "https://youtu.be/FSw1NP2_Z0I",
           description: "Pisua kontzeptua eta ariketak.",
@@ -942,7 +977,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
         ],
-      ENERGIAK: [
+      "3. ENERGIAK": [
         {
           title: "Lana eta energia 1 (lana)",
           url: "https://youtu.be/QSLC7641CmY",
@@ -977,12 +1012,47 @@ const videoData = {
           description: "Marruskadurarekin lotutako arazoak.",
           duration: "9:18",
           type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (erorketa askean). Kualitatiboa",
+          url: "https://youtu.be/nJ7cJyAXCxY",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Erorketa askea). Kuantitatiboa",
+          url: "https://youtu.be/cZOvEURPgF4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Plano Inklinatuan)",
+          url: "https://youtu.be/FWVsKR4uSxw",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura)",
+          url: "https://youtu.be/oVb-jyD3ac4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura Plano Inklinatuan)",
+          url: "https://youtu.be/fSA5v0SXF3s",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
         }
         ]
     },
 
     Kimika: {
-      ATOMOAK: [
+      "1. ATOMOAK": [
         {
           title: "Zenbaki Atomikoa eta Masa Zenbakia",
           url: "https://youtu.be/qqgkNCz2IfQ",
@@ -1087,9 +1157,44 @@ const videoData = {
           description: "Balentzia elektroiak eta zortzikotearen araua praktikatzeko ariketa.",
           duration: "11:50",
           type: "ariketa"
-        }
+        },
+        {
+          title: "Oxigenoa",
+          url: "https://youtu.be/iU5DfBGl_kE",
+          description: "Protoiak, Neutroiak, Elektroiak, Konfigurazio elektronikoa, Balentzia Geruza, Balentzia Elektroiak, OZK, Periodoa eta Taldea.",
+          duration: "3:09",
+          type: "teoria"
+        },
+        {
+          title: "Nitrogenoa",
+          url: "https://youtu.be/z4IXew1BWaE",
+          description: "Protoiak, Neutroiak, Elektroiak, Konfigurazio elektronikoa, Balentzia Geruza, Balentzia Elektroiak, OZK, Periodoa eta Taldea.",
+          duration: "3:09",
+          type: "teoria"
+        },
+        {
+          title: "Berilioa",
+          url: "https://youtu.be/WoQeUWx0X8g",
+          description: "Protoiak, Neutroiak, Elektroiak, Konfigurazio elektronikoa, Balentzia Geruza, Balentzia Elektroiak, OZK, Periodoa eta Taldea.",
+          duration: "3:09",
+          type: "teoria"
+        },
+        {
+          title: "Fluorra",
+          url: "https://youtu.be/-PeKjs2eZsc",
+          description: "Protoiak, Neutroiak, Elektroiak, Konfigurazio elektronikoa, Balentzia Geruza, Balentzia Elektroiak, OZK, Periodoa eta Taldea.",
+          duration: "3:09",
+          type: "teoria"
+        },
+        {
+          title: "Aluminioa",
+          url: "https://youtu.be/KzmXWb5dloU",
+          description: "Protoiak, Neutroiak, Elektroiak, Konfigurazio elektronikoa, Balentzia Geruza, Balentzia Elektroiak, OZK, Periodoa eta Taldea.",
+          duration: "3:09",
+          type: "teoria"
+        },
       ],
-      "EREDU ATOMIKOAK": [
+      "2. EREDU ATOMIKOAK": [
         {
           title: "Eredu Atomikoak",
           url: "https://youtu.be/EZWlLvY6qAc",
@@ -1098,88 +1203,30 @@ const videoData = {
           type: "teoria"
         }
       ],
-      "ZENBAKI KUANTIKOAK": [
+      "3. LOTURA KIMIKOA": [
         {
-          title: "Zenbaki kuantikoak (sarrera)",
-          url: "https://youtu.be/B_RBmmNwB10",
-          description: "Zenbaki kuantikoen oinarrizko azalpena.",
-          duration: "9:41",
+          title: "Lotura metalikoa",
+          url: "https://youtu.be/XUimBF2PFIQ",
+          description: "Lotura metalikoaren azalpena.",
+          duration: "5:30",
           type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (1. ariketa)",
-          url: "https://youtu.be/2vjKEUKxLKA",
-          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
-          duration: "8:37",
-          type: "ariketa"
+          title: "Lotura kobalentea",
+          url: "https://youtu.be/Lp94Y338M3w",
+          description: "Lotura kobalentearen azalpena.",
+          duration: "11:30",
+          type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (2. ariketa)",
-          url: "https://youtu.be/beT3JkpTU8A",
-          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
-          duration: "7:31",
-          type: "ariketa"
-        },
-        {
-          title: "Zenbaki kuantikoak (3. ariketa)",
-          url: "https://youtu.be/mMxTp3z6wu8",
-          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
-          duration: "13:36",
-          type: "ariketa"
+          title: "Lotura ionikoa",
+          url: "https://youtu.be/iY-9dGQcFRc",
+          description: "Lotura ionikoaren azalpena.",
+          duration: "12:03",
+          type: "teoria"
         }
       ],
-      GASAK: [
-        {
-          title: "Gasen nahasteak (1. ariketa)",
-          url: "https://youtu.be/HRk1ekw7bqo",
-          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
-          duration: "4:24",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (2. ariketa)",
-          url: "https://youtu.be/jLFofreM12s",
-          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
-          duration: "2:40",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (3. ariketa)",
-          url: "https://youtu.be/WJRbL7rIU4Y",
-          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
-          duration: "5:31",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (4. ariketa)",
-          url: "https://youtu.be/HhMJXw3Va9A",
-          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
-          duration: "3:27",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (5. ariketa)",
-          url: "https://youtu.be/DE9DXs2Jpkg",
-          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
-          duration: "5:26",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (6. ariketa)",
-          url: "https://youtu.be/7eAwi7DJiLY",
-          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
-          duration: "6:53",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (7. ariketa)",
-          url: "https://youtu.be/5ERujW0g0eM",
-          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
-          duration: "4:41",
-          type: "ariketa"
-        }
-      ],
-      "ERREAKZIO KIMIKOAK": [
+      "4. ERREAKZIO KIMIKOAK": [
         {
           title: "Ekuazio kimikoak 1",
           url: "https://youtu.be/rE2fcvvfhEA",
@@ -1398,7 +1445,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      FORMULAZIOA: [{
+      "5. FORMULAZIOA": [{
           title: "Formulazioa 1: Konposatu kimikoak",
           url: "https://youtu.be/O-t8mW5ODVA",
           description: "Konposatu kimikoen oinarrizko azalpena eta ariketak.",
@@ -1539,165 +1586,91 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
         ],
-      "LOTURA KIMIKOA": [
+      "6. ZENBAKI KUANTIKOAK": [
         {
-          title: "Lotura metalikoa",
-          url: "https://youtu.be/XUimBF2PFIQ",
-          description: "Lotura metalikoaren azalpena.",
-          duration: "5:30",
+          title: "Zenbaki kuantikoak (sarrera)",
+          url: "https://youtu.be/B_RBmmNwB10",
+          description: "Zenbaki kuantikoen oinarrizko azalpena.",
+          duration: "9:41",
           type: "teoria"
         },
         {
-          title: "Lotura kobalentea",
-          url: "https://youtu.be/Lp94Y338M3w",
-          description: "Lotura kobalentearen azalpena.",
-          duration: "11:30",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (1. ariketa)",
+          url: "https://youtu.be/2vjKEUKxLKA",
+          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
+          duration: "8:37",
+          type: "ariketa"
         },
         {
-          title: "Lotura ionikoa",
-          url: "https://youtu.be/iY-9dGQcFRc",
-          description: "Lotura ionikoaren azalpena.",
-          duration: "12:03",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (2. ariketa)",
+          url: "https://youtu.be/beT3JkpTU8A",
+          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
+          duration: "7:31",
+          type: "ariketa"
+        },
+        {
+          title: "Zenbaki kuantikoak (3. ariketa)",
+          url: "https://youtu.be/mMxTp3z6wu8",
+          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
+          duration: "13:36",
+          type: "ariketa"
+        }
+      ],
+      "7. GASAK": [
+        {
+          title: "Gasen nahasteak (1. ariketa)",
+          url: "https://youtu.be/HRk1ekw7bqo",
+          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
+          duration: "4:24",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (2. ariketa)",
+          url: "https://youtu.be/jLFofreM12s",
+          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
+          duration: "2:40",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (3. ariketa)",
+          url: "https://youtu.be/WJRbL7rIU4Y",
+          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
+          duration: "5:31",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (4. ariketa)",
+          url: "https://youtu.be/HhMJXw3Va9A",
+          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
+          duration: "3:27",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (5. ariketa)",
+          url: "https://youtu.be/DE9DXs2Jpkg",
+          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
+          duration: "5:26",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (6. ariketa)",
+          url: "https://youtu.be/7eAwi7DJiLY",
+          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
+          duration: "6:53",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (7. ariketa)",
+          url: "https://youtu.be/5ERujW0g0eM",
+          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
+          duration: "4:41",
+          type: "ariketa"
         }
       ]
     },
 
     Matematika: {
-      ALJEBRA: [
-        {
-          title: "Polinomio baten erroak",
-          url: "https://youtu.be/G9P9-ntc7FE",
-          description: "Polinomioen erroak kalkulatzen.",
-          duration: "8:42",
-          type: ["teoria", "ariketa"]
-        }
-      ],
-      TRIGONOMETRIA: [
-        {
-          title: "Trigonometria ariketak 1",
-          url: "https://youtu.be/5_sbS7KbNJM",
-          description: "Trigonometria ariketa.",
-          duration: "5:45",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketak 2",
-          url: "https://youtu.be/WLFzGaFHwtg",
-          description: "Trigonometria ariketa.",
-          duration: "3:40",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketak 3",
-          url: "https://youtu.be/R28XFd7bvi8",
-          description: "Trigonometria ariketa.",
-          duration: "4:22",
-          type: "ariketa"
-        },
-        {
-          title: "Arrazoi trigonometriko guztiak",
-          url: "https://youtu.be/kBRu5lPF1qc",
-          description: "Arrazoi trigonometrikoen azalpena.",
-          duration: "9:49",
-          type: "teoria"
-        },
-        {
-          title: "Trigonometria ariketak 4",
-          url: "https://youtu.be/XtOqf08GkMM",
-          description: "Trigonometria ariketa.",
-          duration: "6:01",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketa 5",
-          url: "https://youtu.be/Pma8-yDP4Uk",
-          description: "Trigonometria ariketa.",
-          duration: "9:33",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketak 6",
-          url: "https://youtu.be/ZhQguY2a-u4",
-          description: "Trigonometria ariketa.",
-          duration: "3:57",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketak 7",
-          url: "https://youtu.be/jKiJkOaWaWE",
-          description: "Trigonometria ariketa.",
-          duration: "4:10",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketa 8",
-          url: "https://youtu.be/CS9miveafF0",
-          description: "Trigonometria ariketa.",
-          duration: "6:23",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketak 9",
-          url: "https://youtu.be/j6iQIObOwm8",
-          description: "Trigonometria ariketa.",
-          duration: "6:43",
-          type: "ariketa"
-        },
-        {
-          title: "Trigonometria ariketak 10",
-          url: "https://youtu.be/FUq5AvRiaYA",
-          description: "Trigonometria ariketa.",
-          duration: "8:46",
-          type: "ariketa"
-        }
-      ],
-      LOGARITMOAK: [
-        {
-          title: "Logaritmoak 1 (sarrera)",
-          url: "https://youtu.be/6QB2aX_yMrI",
-          description: "Logaritmoen oinarrizko sarrera eta ariketak.",
-          duration: "6:17",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Logaritmoak 2 (zatikiak eta berretzaileak)",
-          url: "https://youtu.be/A81XKKLNGpY",
-          description: "Zatikiak eta berretzaileak logaritmoetan.",
-          duration: "4:53",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Logaritmoak 3 (erroekin)",
-          url: "https://youtu.be/jlxx5Hst96k",
-          description: "Erroekin lan egiten logaritmoetan.",
-          duration: "4:33",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Logaritmoak 4 (erroak eta zatiketak)",
-          url: "https://youtu.be/Ah56Hq9pguM",
-          description: "Erroak eta zatiketak logaritmoetan.",
-          duration: "4:17",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Logaritmoak 5 (oinarri aldaketak)",
-          url: "https://youtu.be/8Jtp2gfcc6I",
-          description: "Oinarri aldaketak logaritmoetan.",
-          duration: "6:33",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Logaritmoak 6 (ariketak)",
-          url: "https://youtu.be/rxXrmQzbtYU",
-          description: "Logaritmoen ariketa praktikoak.",
-          duration: "6:32",
-          type: ["teoria", "ariketa"]
-        }
-      ],
-      "BIHURKETA FAKTOREAK": [
+      "1. BIHURKETA FAKTOREAK": [
         {
           title: "Bihurketa faktoreak 1",
           url: "https://youtu.be/b4-DY1_MMYE",
@@ -1748,7 +1721,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      "NOTAZIO ZIENTIFIKOA": [
+      "2. NOTAZIO ZIENTIFIKOA": [
         {
       title: "Notazio zientifikoa 1 (zenbaki handiak)",
       url: "https://youtu.be/ru2NoUtEp84",
@@ -1763,13 +1736,175 @@ const videoData = {
       duration: "6:15",
       type: ["teoria", "ariketa"]
     }
+      ],
+      "3. GRAFIKOAK": [
+        {
+          title: "Funtzio Afinak (y=mx+n)",
+          url: "https://youtu.be/IPF-dGdvnE4",
+          description: "y=2x+3",
+          duration: "1:19",
+          type: "teoria"
+        },
+        {
+          title: "Funtzio Kuadratikoak (y=ax^2+ bx + c)",
+          url: "https://youtu.be/qnQh5gWK6tE",
+          description: "y=x^2 -4x -5",
+          duration: "3:58",
+          type: "teoria"
+        },
+        {
+          title: "Metodo orokorra",
+          url: "https://youtu.be/37Ezldt2wek",
+          description: "y=2x +1",
+          duration: "1:14",
+          type: "teoria"
+        },
+        {
+          title: "Metodo orokorra",
+          url: "https://youtu.be/MtVz-md9MUs",
+          description: "y=-2x +8",
+          duration: "1:14",
+          type: "teoria"
+        }
+      ],
+      "4. ALJEBRA": [
+        {
+          title: "Polinomio baten erroak",
+          url: "https://youtu.be/G9P9-ntc7FE",
+          description: "Polinomioen erroak kalkulatzen.",
+          duration: "8:42",
+          type: ["teoria", "ariketa"]
+        }
+      ],
+      "5. TRIGONOMETRIA": [
+        {
+          title: "Trigonometria ariketak 1",
+          url: "https://youtu.be/5_sbS7KbNJM",
+          description: "Trigonometria ariketa.",
+          duration: "5:45",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketak 2",
+          url: "https://youtu.be/WLFzGaFHwtg",
+          description: "Trigonometria ariketa.",
+          duration: "3:40",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketak 3",
+          url: "https://youtu.be/R28XFd7bvi8",
+          description: "Trigonometria ariketa.",
+          duration: "4:22",
+          type: "ariketa"
+        },
+        {
+          title: "Arrazoi trigonometriko guztiak",
+          url: "https://youtu.be/kBRu5lPF1qc",
+          description: "Arrazoi trigonometrikoen azalpena.",
+          duration: "9:49",
+          type: "teoria"
+        },
+        {
+          title: "Trigonometria ariketak 4",
+          url: "https://youtu.be/XtOqf08GkMM",
+          description: "Trigonometria ariketa.",
+          duration: "6:01",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketa 5",
+          url: "https://youtu.be/Pma8-yDP4Uk",
+          description: "Trigonometria ariketa.",
+          duration: "9:33",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketak 6",
+          url: "https://youtu.be/ZhQguY2a-u4",
+          description: "Trigonometria ariketa.",
+          duration: "3:57",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketak 7",
+          url: "https://youtu.be/jKiJkOaWaWE",
+          description: "Trigonometria ariketa.",
+          duration: "4:10",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketa 8",
+          url: "https://youtu.be/CS9miveafF0",
+          description: "Trigonometria ariketa.",
+          duration: "6:23",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketak 9",
+          url: "https://youtu.be/j6iQIObOwm8",
+          description: "Trigonometria ariketa.",
+          duration: "6:43",
+          type: "ariketa"
+        },
+        {
+          title: "Trigonometria ariketak 10",
+          url: "https://youtu.be/FUq5AvRiaYA",
+          description: "Trigonometria ariketa.",
+          duration: "8:46",
+          type: "ariketa"
+        }
+      ],
+      "6. LOGARITMOAK": [
+        {
+          title: "Logaritmoak 1 (sarrera)",
+          url: "https://youtu.be/6QB2aX_yMrI",
+          description: "Logaritmoen oinarrizko sarrera eta ariketak.",
+          duration: "6:17",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Logaritmoak 2 (zatikiak eta berretzaileak)",
+          url: "https://youtu.be/A81XKKLNGpY",
+          description: "Zatikiak eta berretzaileak logaritmoetan.",
+          duration: "4:53",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Logaritmoak 3 (erroekin)",
+          url: "https://youtu.be/jlxx5Hst96k",
+          description: "Erroekin lan egiten logaritmoetan.",
+          duration: "4:33",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Logaritmoak 4 (erroak eta zatiketak)",
+          url: "https://youtu.be/Ah56Hq9pguM",
+          description: "Erroak eta zatiketak logaritmoetan.",
+          duration: "4:17",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Logaritmoak 5 (oinarri aldaketak)",
+          url: "https://youtu.be/8Jtp2gfcc6I",
+          description: "Oinarri aldaketak logaritmoetan.",
+          duration: "6:33",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Logaritmoak 6 (ariketak)",
+          url: "https://youtu.be/rxXrmQzbtYU",
+          description: "Logaritmoen ariketa praktikoak.",
+          duration: "6:32",
+          type: ["teoria", "ariketa"]
+        }
       ]
     }
   },
 
   BATXI1: {
     Fisika: {
-      ZINEMATIKA: [
+      "1. ZINEMATIKA": [
         {
           title: "Zinematika 1: Higidura zuzen uniformea (HZU)",
           url: "https://youtu.be/j0-MLShaYyY",
@@ -1995,7 +2130,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZINEMATIKA (HZU + HZUA)": [
+      "2. ZINEMATIKA (HZU + HZUA)": [
         {
           title: "Zinematika Batxilergo 1. maila (41. ariketa)",
           url: "https://youtu.be/fFuldF8qDKs",
@@ -2060,7 +2195,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZINEMATIKA (PARABOLIKOA)": [
+      "3. ZINEMATIKA (PARABOLIKOA)": [
         {
           title: "Higidura parabolikoa 1 (Oinarrizko kontzeptuak)",
           url: "https://youtu.be/JOH7Nit15o4",
@@ -2125,7 +2260,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZINEMATIKA (ZIRKULARRA)": [
+      "4. ZINEMATIKA (ZIRKULARRA)": [
         {
           title: "Fisika orokorra: Zinematika 3",
           url: "https://youtu.be/DUWCUPdULzE",
@@ -2176,7 +2311,7 @@ const videoData = {
           type: "teoria"
         }
       ],
-      DINAMIKA: [
+      "5. DINAMIKA": [
         {
           title: "Dinamika 1: Pisua",
           url: "https://youtu.be/FSw1NP2_Z0I",
@@ -2297,7 +2432,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      ENERGIAK: [
+      "6. ENERGIAK": [
         {
           title: "Lana eta energia 1 (lana)",
           url: "https://youtu.be/QSLC7641CmY",
@@ -2346,12 +2481,48 @@ const videoData = {
           description: "Lan eta energiari buruzko ariketa (2/2).",
           duration: "8:48",
           type: "ariketa"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (erorketa askean). Kualitatiboa",
+          url: "https://youtu.be/nJ7cJyAXCxY",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Erorketa askea). Kuantitatiboa",
+          url: "https://youtu.be/cZOvEURPgF4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Plano Inklinatuan)",
+          url: "https://youtu.be/FWVsKR4uSxw",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura)",
+          url: "https://youtu.be/oVb-jyD3ac4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura Plano Inklinatuan)",
+          url: "https://youtu.be/fSA5v0SXF3s",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
         }
+
       ]
     },
 
     "Fisika eta Kimika": {
-      ATOMOAK: [
+      "1. ATOMOAK": [
         {
           title: "Zenbaki Atomikoa eta Masa Zenbakia",
           url: "https://youtu.be/qqgkNCz2IfQ",
@@ -2458,88 +2629,30 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZENBAKI KUANTIKOAK": [
+      "2. LOTURA KIMIKOA": [
         {
-          title: "Zenbaki kuantikoak (sarrera)",
-          url: "https://youtu.be/B_RBmmNwB10",
-          description: "Zenbaki kuantikoen oinarrizko azalpena.",
-          duration: "9:41",
+          title: "Lotura metalikoa",
+          url: "https://youtu.be/XUimBF2PFIQ",
+          description: "Lotura metalikoaren azalpena.",
+          duration: "5:30",
           type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (1. ariketa)",
-          url: "https://youtu.be/2vjKEUKxLKA",
-          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
-          duration: "8:37",
-          type: "ariketa"
+          title: "Lotura kobalentea",
+          url: "https://youtu.be/Lp94Y338M3w",
+          description: "Lotura kobalentearen azalpena.",
+          duration: "11:30",
+          type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (2. ariketa)",
-          url: "https://youtu.be/beT3JkpTU8A",
-          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
-          duration: "7:31",
-          type: "ariketa"
-        },
-        {
-          title: "Zenbaki kuantikoak (3. ariketa)",
-          url: "https://youtu.be/mMxTp3z6wu8",
-          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
-          duration: "13:36",
-          type: "ariketa"
+          title: "Lotura ionikoa",
+          url: "https://youtu.be/iY-9dGQcFRc",
+          description: "Lotura ionikoaren azalpena.",
+          duration: "12:03",
+          type: "teoria"
         }
       ],
-      GASAK: [
-        {
-          title: "Gasen nahasteak (1. ariketa)",
-          url: "https://youtu.be/HRk1ekw7bqo",
-          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
-          duration: "4:24",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (2. ariketa)",
-          url: "https://youtu.be/jLFofreM12s",
-          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
-          duration: "2:40",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (3. ariketa)",
-          url: "https://youtu.be/WJRbL7rIU4Y",
-          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
-          duration: "5:31",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (4. ariketa)",
-          url: "https://youtu.be/HhMJXw3Va9A",
-          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
-          duration: "3:27",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (5. ariketa)",
-          url: "https://youtu.be/DE9DXs2Jpkg",
-          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
-          duration: "5:26",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (6. ariketa)",
-          url: "https://youtu.be/7eAwi7DJiLY",
-          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
-          duration: "6:53",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (7. ariketa)",
-          url: "https://youtu.be/5ERujW0g0eM",
-          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
-          duration: "4:41",
-          type: "ariketa"
-        }
-      ],
-      "ERREAKZIO KIMIKOAK": [
+      "3. ERREAKZIO KIMIKOAK": [
         {
           title: "Ekuazio kimikoak 1",
           url: "https://youtu.be/rE2fcvvfhEA",
@@ -2758,7 +2871,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      FORMULAZIOA: [{
+      "4. FORMULAZIOA": [{
           title: "Formulazioa 1: Konposatu kimikoak",
           url: "https://youtu.be/O-t8mW5ODVA",
           description: "Konposatu kimikoen oinarrizko azalpena eta ariketak.",
@@ -2899,30 +3012,88 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      "LOTURA KIMIKOA": [
+      "5. ZENBAKI KUANTIKOAK": [
         {
-          title: "Lotura metalikoa",
-          url: "https://youtu.be/XUimBF2PFIQ",
-          description: "Lotura metalikoaren azalpena.",
-          duration: "5:30",
+          title: "Zenbaki kuantikoak (sarrera)",
+          url: "https://youtu.be/B_RBmmNwB10",
+          description: "Zenbaki kuantikoen oinarrizko azalpena.",
+          duration: "9:41",
           type: "teoria"
         },
         {
-          title: "Lotura kobalentea",
-          url: "https://youtu.be/Lp94Y338M3w",
-          description: "Lotura kobalentearen azalpena.",
-          duration: "11:30",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (1. ariketa)",
+          url: "https://youtu.be/2vjKEUKxLKA",
+          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
+          duration: "8:37",
+          type: "ariketa"
         },
         {
-          title: "Lotura ionikoa",
-          url: "https://youtu.be/iY-9dGQcFRc",
-          description: "Lotura ionikoaren azalpena.",
-          duration: "12:03",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (2. ariketa)",
+          url: "https://youtu.be/beT3JkpTU8A",
+          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
+          duration: "7:31",
+          type: "ariketa"
+        },
+        {
+          title: "Zenbaki kuantikoak (3. ariketa)",
+          url: "https://youtu.be/mMxTp3z6wu8",
+          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
+          duration: "13:36",
+          type: "ariketa"
         }
       ],
-      "PROPIETATE PERIODIKOAK": [
+      "6. GASAK": [
+        {
+          title: "Gasen nahasteak (1. ariketa)",
+          url: "https://youtu.be/HRk1ekw7bqo",
+          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
+          duration: "4:24",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (2. ariketa)",
+          url: "https://youtu.be/jLFofreM12s",
+          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
+          duration: "2:40",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (3. ariketa)",
+          url: "https://youtu.be/WJRbL7rIU4Y",
+          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
+          duration: "5:31",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (4. ariketa)",
+          url: "https://youtu.be/HhMJXw3Va9A",
+          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
+          duration: "3:27",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (5. ariketa)",
+          url: "https://youtu.be/DE9DXs2Jpkg",
+          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
+          duration: "5:26",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (6. ariketa)",
+          url: "https://youtu.be/7eAwi7DJiLY",
+          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
+          duration: "6:53",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (7. ariketa)",
+          url: "https://youtu.be/5ERujW0g0eM",
+          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
+          duration: "4:41",
+          type: "ariketa"
+        }
+      ],
+      "7. PROPIETATE PERIODIKOAK": [
         {
           title: "Propietate periodikoak 1: Erradio atomikoa",
           url: "https://youtu.be/L8u-fBn6Rak",
@@ -2945,7 +3116,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      "FORMULAZIO ORGANIKOA": [
+      "8. FORMULAZIO ORGANIKOA": [
         {
           title: "Formulazio organikoa 1 (alkanoak, alkenoak eta alkinoak) (1/2)",
           url: "https://youtu.be/P8hFPgQMqik",
@@ -3059,7 +3230,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      ZINEMATIKA: [
+      "9. ZINEMATIKA": [
         {
           title: "Zinematika 1: Higidura zuzen uniformea (HZU)",
           url: "https://youtu.be/j0-MLShaYyY",
@@ -3285,7 +3456,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZINEMATIKA (HZU + HZUA)": [
+      "10. ZINEMATIKA (HZU + HZUA)": [
         {
           title: "Zinematika Batxilergo 1. maila (41. ariketa)",
           url: "https://youtu.be/fFuldF8qDKs",
@@ -3350,7 +3521,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZINEMATIKA (PARABOLIKOA)": [
+      "11. ZINEMATIKA (PARABOLIKOA)": [
         {
           title: "Higidura parabolikoa 1 (Oinarrizko kontzeptuak)",
           url: "https://youtu.be/JOH7Nit15o4",
@@ -3415,7 +3586,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZINEMATIKA (ZIRKULARRA)": [
+      "12. ZINEMATIKA (ZIRKULARRA)": [
         {
           title: "Fisika orokorra: Zinematika 3",
           url: "https://youtu.be/DUWCUPdULzE",
@@ -3466,7 +3637,7 @@ const videoData = {
           type: "teoria"
         }
       ],
-      DINAMIKA: [
+      "13. DINAMIKA": [
         {
           title: "Dinamika 1: Pisua",
           url: "https://youtu.be/FSw1NP2_Z0I",
@@ -3587,7 +3758,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      ENERGIAK: [
+      "14. ENERGIAK": [
         {
           title: "Lana eta energia 1 (lana)",
           url: "https://youtu.be/QSLC7641CmY",
@@ -3636,12 +3807,47 @@ const videoData = {
           description: "Lan eta energiari buruzko ariketa (2/2).",
           duration: "8:48",
           type: "ariketa"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (erorketa askean). Kualitatiboa",
+          url: "https://youtu.be/nJ7cJyAXCxY",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Erorketa askea). Kuantitatiboa",
+          url: "https://youtu.be/cZOvEURPgF4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoaren kontserbazioa (Plano Inklinatuan)",
+          url: "https://youtu.be/FWVsKR4uSxw",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura)",
+          url: "https://youtu.be/oVb-jyD3ac4",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
+        },
+        {
+          title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura Plano Inklinatuan)",
+          url: "https://youtu.be/fSA5v0SXF3s",
+          description: "",
+          duration: "0:12",
+          type: "teoria"
         }
-      ]
+          ]
     },
 
     Kimika: {
-      ATOMOAK: [
+      "1. ATOMOAK": [
         {
           title: "Zenbaki Atomikoa eta Masa Zenbakia",
           url: "https://youtu.be/qqgkNCz2IfQ",
@@ -3748,88 +3954,30 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      "ZENBAKI KUANTIKOAK": [
+      "2. LOTURA KIMIKOA": [
         {
-          title: "Zenbaki kuantikoak (sarrera)",
-          url: "https://youtu.be/B_RBmmNwB10",
-          description: "Zenbaki kuantikoen oinarrizko azalpena.",
-          duration: "9:41",
+          title: "Lotura metalikoa",
+          url: "https://youtu.be/XUimBF2PFIQ",
+          description: "Lotura metalikoaren azalpena.",
+          duration: "5:30",
           type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (1. ariketa)",
-          url: "https://youtu.be/2vjKEUKxLKA",
-          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
-          duration: "8:37",
-          type: "ariketa"
+          title: "Lotura kobalentea",
+          url: "https://youtu.be/Lp94Y338M3w",
+          description: "Lotura kobalentearen azalpena.",
+          duration: "11:30",
+          type: "teoria"
         },
         {
-          title: "Zenbaki kuantikoak (2. ariketa)",
-          url: "https://youtu.be/beT3JkpTU8A",
-          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
-          duration: "7:31",
-          type: "ariketa"
-        },
-        {
-          title: "Zenbaki kuantikoak (3. ariketa)",
-          url: "https://youtu.be/mMxTp3z6wu8",
-          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
-          duration: "13:36",
-          type: "ariketa"
+          title: "Lotura ionikoa",
+          url: "https://youtu.be/iY-9dGQcFRc",
+          description: "Lotura ionikoaren azalpena.",
+          duration: "12:03",
+          type: "teoria"
         }
       ],
-      GASAK: [
-        {
-          title: "Gasen nahasteak (1. ariketa)",
-          url: "https://youtu.be/HRk1ekw7bqo",
-          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
-          duration: "4:24",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (2. ariketa)",
-          url: "https://youtu.be/jLFofreM12s",
-          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
-          duration: "2:40",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (3. ariketa)",
-          url: "https://youtu.be/WJRbL7rIU4Y",
-          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
-          duration: "5:31",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (4. ariketa)",
-          url: "https://youtu.be/HhMJXw3Va9A",
-          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
-          duration: "3:27",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (5. ariketa)",
-          url: "https://youtu.be/DE9DXs2Jpkg",
-          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
-          duration: "5:26",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (6. ariketa)",
-          url: "https://youtu.be/7eAwi7DJiLY",
-          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
-          duration: "6:53",
-          type: "ariketa"
-        },
-        {
-          title: "Gasen nahasteak (7. ariketa)",
-          url: "https://youtu.be/5ERujW0g0eM",
-          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
-          duration: "4:41",
-          type: "ariketa"
-        }
-      ],
-      "ERREAKZIO KIMIKOAK": [
+      "3. ERREAKZIO KIMIKOAK": [
         {
           title: "Ekuazio kimikoak 1",
           url: "https://youtu.be/rE2fcvvfhEA",
@@ -4048,7 +4196,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      FORMULAZIOA: [{
+      "4. FORMULAZIOA": [{
           title: "Formulazioa 1: Konposatu kimikoak",
           url: "https://youtu.be/O-t8mW5ODVA",
           description: "Konposatu kimikoen oinarrizko azalpena eta ariketak.",
@@ -4189,30 +4337,88 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      "LOTURA KIMIKOA": [
+      "5. ZENBAKI KUANTIKOAK": [
         {
-          title: "Lotura metalikoa",
-          url: "https://youtu.be/XUimBF2PFIQ",
-          description: "Lotura metalikoaren azalpena.",
-          duration: "5:30",
+          title: "Zenbaki kuantikoak (sarrera)",
+          url: "https://youtu.be/B_RBmmNwB10",
+          description: "Zenbaki kuantikoen oinarrizko azalpena.",
+          duration: "9:41",
           type: "teoria"
         },
         {
-          title: "Lotura kobalentea",
-          url: "https://youtu.be/Lp94Y338M3w",
-          description: "Lotura kobalentearen azalpena.",
-          duration: "11:30",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (1. ariketa)",
+          url: "https://youtu.be/2vjKEUKxLKA",
+          description: "Zenbaki kuantikoei buruzko lehen ariketa ebatzia.",
+          duration: "8:37",
+          type: "ariketa"
         },
         {
-          title: "Lotura ionikoa",
-          url: "https://youtu.be/iY-9dGQcFRc",
-          description: "Lotura ionikoaren azalpena.",
-          duration: "12:03",
-          type: "teoria"
+          title: "Zenbaki kuantikoak (2. ariketa)",
+          url: "https://youtu.be/beT3JkpTU8A",
+          description: "Zenbaki kuantikoei buruzko bigarren ariketa ebatzia.",
+          duration: "7:31",
+          type: "ariketa"
+        },
+        {
+          title: "Zenbaki kuantikoak (3. ariketa)",
+          url: "https://youtu.be/mMxTp3z6wu8",
+          description: "Zenbaki kuantikoei buruzko hirugarren ariketa ebatzia.",
+          duration: "13:36",
+          type: "ariketa"
         }
       ],
-      "PROPIETATE PERIODIKOAK": [
+      "6. GASAK": [
+        {
+          title: "Gasen nahasteak (1. ariketa)",
+          url: "https://youtu.be/HRk1ekw7bqo",
+          description: "Gasen nahasteei buruzko lehen ariketa ebatzia.",
+          duration: "4:24",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (2. ariketa)",
+          url: "https://youtu.be/jLFofreM12s",
+          description: "Gasen nahasteei buruzko bigarren ariketa ebatzia.",
+          duration: "2:40",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (3. ariketa)",
+          url: "https://youtu.be/WJRbL7rIU4Y",
+          description: "Gasen nahasteei buruzko hirugarren ariketa ebatzia.",
+          duration: "5:31",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (4. ariketa)",
+          url: "https://youtu.be/HhMJXw3Va9A",
+          description: "Gasen nahasteei buruzko laugarren ariketa ebatzia.",
+          duration: "3:27",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (5. ariketa)",
+          url: "https://youtu.be/DE9DXs2Jpkg",
+          description: "Gasen nahasteei buruzko bosgarren ariketa ebatzia.",
+          duration: "5:26",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (6. ariketa)",
+          url: "https://youtu.be/7eAwi7DJiLY",
+          description: "Gasen nahasteei buruzko seigarren ariketa ebatzia.",
+          duration: "6:53",
+          type: "ariketa"
+        },
+        {
+          title: "Gasen nahasteak (7. ariketa)",
+          url: "https://youtu.be/5ERujW0g0eM",
+          description: "Gasen nahasteei buruzko zazpigarren ariketa ebatzia.",
+          duration: "4:41",
+          type: "ariketa"
+        }
+      ],
+      "7. PROPIETATE PERIODIKOAK": [
         {
           title: "Propietate periodikoak 1: Erradio atomikoa",
           url: "https://youtu.be/L8u-fBn6Rak",
@@ -4235,7 +4441,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      "FORMULAZIO ORGANIKOA": [
+      "8. FORMULAZIO ORGANIKOA": [
         {
           title: "Formulazio organikoa 1 (alkanoak, alkenoak eta alkinoak) (1/2)",
           url: "https://youtu.be/P8hFPgQMqik",
@@ -4352,7 +4558,37 @@ const videoData = {
     },
 
     Matematika: {
-      TRIGONOMETRIA: [
+      "1. GRAFIKOAK": [
+        {
+          title: "Funtzio Afinak (y=mx+n)",
+          url: "https://youtu.be/IPF-dGdvnE4",
+          description: "y=2x+3",
+          duration: "1:19",
+          type: "teoria"
+        },
+        {
+          title: "Funtzio Kuadratikoak (y=ax^2+ bx + c)",
+          url: "https://youtu.be/qnQh5gWK6tE",
+          description: "y=x^2 -4x -5",
+          duration: "3:58",
+          type: "teoria"
+        },
+        {
+          title: "Metodo orokorra",
+          url: "https://youtu.be/37Ezldt2wek",
+          description: "y=2x +1",
+          duration: "1:14",
+          type: "teoria"
+        },
+        {
+          title: "Metodo orokorra",
+          url: "https://youtu.be/MtVz-md9MUs",
+          description: "y=-2x +8",
+          duration: "1:14",
+          type: "teoria"
+        }
+      ],
+      "2. TRIGONOMETRIA": [
         {
           title: "Trigonometria ariketak 1",
           url: "https://youtu.be/5_sbS7KbNJM",
@@ -4431,7 +4667,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-      LOGARITMOAK: [
+      "3. LOGARITMOAK": [
         {
           title: "Logaritmoak 1 (sarrera)",
           url: "https://youtu.be/6QB2aX_yMrI",
@@ -4475,7 +4711,79 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      LIMITEAK: [
+      "4. BEKTOREAK": [
+        {
+          title: "Bektoreak",
+          url: "https://youtu.be/DAZLUiyYjjE",
+          description: "Bektoreen oinarrizko azalpena.",
+          duration: "11:03",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Batuketak eta kenketak (1/2)",
+          url: "https://youtu.be/fZI0xFN3MUg",
+          description: "Bektoreen batuketak eta kenketak (1).",
+          duration: "6:25",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Batuketak eta kenketak (2/2)",
+          url: "https://youtu.be/XkLxAZ3fLAk",
+          description: "Bektoreen batuketak eta kenketak (2).",
+          duration: "4:57",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Bektoreak bider zenbakiak",
+          url: "https://youtu.be/yXgafzjEhxk",
+          description: "Bektoreak eskalar batez biderkatzen.",
+          duration: "9:27",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Biderkadura eskalarra",
+          url: "https://youtu.be/lOX6vVOb79o",
+          description: "Biderkadura eskalarraren azalpena.",
+          duration: "9:23",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Biderkadura eskalarra (ariketa)",
+          url: "https://youtu.be/oy-27kwfcro",
+          description: "Biderkadura eskalarraren ariketa.",
+          duration: "7:30",
+          type: "ariketa"
+        },
+        {
+          title: "Bektore baten modulua",
+          url: "https://youtu.be/Z8v62Dday2U",
+          description: "Bektore baten modulua kalkulatzen.",
+          duration: "6:16",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Bektoreen arteko angelua",
+          url: "https://youtu.be/Ed3qJ3oMufM",
+          description: "Bi bektoreen arteko angelua.",
+          duration: "7:06",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Bektore ortogonalak",
+          url: "https://youtu.be/n0qU4NTbq6Q",
+          description: "Bektore ortogonalen azalpena.",
+          duration: "9:18",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "Ariketa: Angeluak eta ortogonalitatea",
+          url: "https://youtu.be/qVUGJFRdtfU",
+          description: "Angeluak eta ortogonalitatea lantzen.",
+          duration: "9:51",
+          type: "ariketa"
+        }
+      ],
+      "6. LIMITEAK": [
         {
           title: "Indeterminazioa (∞/∞) 1",
           url: "https://youtu.be/wQRHFNya55U",
@@ -4596,79 +4904,7 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      BEKTOREAK: [
-        {
-          title: "Bektoreak",
-          url: "https://youtu.be/DAZLUiyYjjE",
-          description: "Bektoreen oinarrizko azalpena.",
-          duration: "11:03",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Batuketak eta kenketak (1/2)",
-          url: "https://youtu.be/fZI0xFN3MUg",
-          description: "Bektoreen batuketak eta kenketak (1).",
-          duration: "6:25",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Batuketak eta kenketak (2/2)",
-          url: "https://youtu.be/XkLxAZ3fLAk",
-          description: "Bektoreen batuketak eta kenketak (2).",
-          duration: "4:57",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Bektoreak bider zenbakiak",
-          url: "https://youtu.be/yXgafzjEhxk",
-          description: "Bektoreak eskalar batez biderkatzen.",
-          duration: "9:27",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Biderkadura eskalarra",
-          url: "https://youtu.be/lOX6vVOb79o",
-          description: "Biderkadura eskalarraren azalpena.",
-          duration: "9:23",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Biderkadura eskalarra (ariketa)",
-          url: "https://youtu.be/oy-27kwfcro",
-          description: "Biderkadura eskalarraren ariketa.",
-          duration: "7:30",
-          type: "ariketa"
-        },
-        {
-          title: "Bektore baten modulua",
-          url: "https://youtu.be/Z8v62Dday2U",
-          description: "Bektore baten modulua kalkulatzen.",
-          duration: "6:16",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Bektoreen arteko angelua",
-          url: "https://youtu.be/Ed3qJ3oMufM",
-          description: "Bi bektoreen arteko angelua.",
-          duration: "7:06",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Bektore ortogonalak",
-          url: "https://youtu.be/n0qU4NTbq6Q",
-          description: "Bektore ortogonalen azalpena.",
-          duration: "9:18",
-          type: ["teoria", "ariketa"]
-        },
-        {
-          title: "Ariketa: Angeluak eta ortogonalitatea",
-          url: "https://youtu.be/qVUGJFRdtfU",
-          description: "Angeluak eta ortogonalitatea lantzen.",
-          duration: "9:51",
-          type: "ariketa"
-        }
-      ],
-      "GEOMETRIA ANALITIKOA 2D": [
+      "5. GEOMETRIA ANALITIKOA 2D": [
         {
           title: "Oinarriak eta erreferentzia sistemak",
           url: "https://youtu.be/_11rvlMY7fg",
@@ -4759,7 +4995,7 @@ const videoData = {
 
   BATXI2: {
     Fisika: {
-     GRABITAZIOA: [
+     "1. GRABITAZIOA": [
       {
         title: "Eremu grabitatorioa (Abiadura orbitala)",
         url: "https://youtu.be/k1ZdAP6McjQ",
@@ -4899,9 +5135,37 @@ const videoData = {
         description: "Grabitazioko selektibitate ariketa.",
         duration: "6:21",
         type: "ariketa"
-      }
+      },
+      {
+      title: "Energiak Erorketa Askean",
+      url: "https://youtu.be/TrnVN-OgcGU",
+      description: "",
+      duration: "0:12",
+      type: "teoria"
+    },
+    {
+      title: "Energiak Jaurtiketa Orbitalean (Kuantitatiboa)",
+      url: "https://youtu.be/oVQb91K1KvI",
+      description: "",
+      duration: "0:17",
+      type: "teoria"
+    },
+    {
+      title: "Energiak Jaurtiketa Orbitalean (Kualitatiboa)",
+      url: "https://youtu.be/QemcrQcuXvE",
+      description: "",
+      duration: "0:06",
+      type: "teoria"
+    },
+    {
+      title: "Energiak Ihes Abiaduran",
+      url: "https://youtu.be/4TLwxMgj1tk",
+      description: "",
+      duration: "0:16",
+      type: "teoria"
+    }
     ],
-    "HIGIDURA HARMONIKO SINPLEA": [
+    "2. HIGIDURA HARMONIKO SINPLEA": [
       {
         title: "Higidura harmoniko sinplea 1 (HHS): Sarrera",
         url: "https://youtu.be/fzLfsOYQkb0",
@@ -5001,7 +5265,7 @@ const videoData = {
         type: "ariketa"
       }
     ],
-    UHINAK: [
+    "3. UHINAK": [
       {
         title: "Uhinak 1: Sarrera",
         url: "https://youtu.be/DC7rKfQq_i0",
@@ -5080,7 +5344,7 @@ const videoData = {
         type: "ariketa"
       }
     ],
-    "EREMU ELEKTRIKOA": [
+    "4. EREMU ELEKTRIKOA": [
       {
         title: "Eremu elektrikoa (Indar eta eremu elektrikoa)",
         url: "https://youtu.be/E1gjL1A_cSA",
@@ -5215,8 +5479,7 @@ const videoData = {
         type: "ariketa"
       }
     ],
-
-    "EREMU MAGNETIKOA": [
+    "5. EREMU MAGNETIKOA": [
       {
         title: "Eremu magnetikoa: Biderkadura bektoriala (1/2)",
         url: "https://youtu.be/tFtQHGm0n34",
@@ -5330,8 +5593,7 @@ const videoData = {
         type: "ariketa"
       }
     ],
-
-    "INDUKZIO ELEKTROMAGNETIKOA": [
+    "6. INDUKZIO ELEKTROMAGNETIKOA": [
       {
         title: "Indukzio elektromagnetikoa: Sarrera",
         url: "https://youtu.be/M_NzMVbUzmg",
@@ -5396,8 +5658,7 @@ const videoData = {
         type: "ariketa"
       }
     ],
-
-    "OPTIKA FISIKOA": [
+    "7. OPTIKA FISIKOA": [
       {
         title: "Optika fisikoa 1: Sarrera",
         url: "https://youtu.be/81iHjNrhRvo",
@@ -5427,7 +5688,7 @@ const videoData = {
         type: "teoria"
       }
     ],
-    "OPTIKA GEOMETRIKOA": [
+    "8. OPTIKA GEOMETRIKOA": [
       {
         title: "Optika geometrikoa 1: Sarrera",
         url: "https://youtu.be/dyGOtwlfPDI",
@@ -5506,7 +5767,7 @@ const videoData = {
         type: "ariketa"
       }
     ],
-    "EFEKTU FOTOELEKTRIKOA": [
+    "9. EFEKTU FOTOELEKTRIKOA": [
       {
         title: "Efektu fotoelektrikoa 1: Sarrera",
         url: "https://youtu.be/XHCSYlq8rIM",
@@ -5536,11 +5797,10 @@ const videoData = {
         type: "ariketa"
       }
     ]
-
     },
 
     Kimika: {
-      "PROPIETATE PERIODIKOAK": [
+      "1. PROPIETATE PERIODIKOAK": [
         {
           title: "Propietate periodikoak 1: Erradio atomikoa",
           url: "https://youtu.be/L8u-fBn6Rak",
@@ -5564,7 +5824,7 @@ const videoData = {
         }
       ],
 
-      "FORMULAZIO ORGANIKOA": [
+      "2. FORMULAZIO ORGANIKOA": [
         {
           title: "Formulazio organikoa 1 (Alkanoak, Alkenoak eta Alkinoak) (1/2)",
           url: "https://youtu.be/P8hFPgQMqik",
@@ -5679,7 +5939,7 @@ const videoData = {
         }
       ],
 
-      "ERREDOX ERREAKZIOAK": [
+      "3. ERREDOX ERREAKZIOAK": [
         {
           title: "Erredox erreakzioak 1 (Zer dira?)",
           url: "https://youtu.be/tuMzQ8XoQr8",
@@ -5761,7 +6021,7 @@ const videoData = {
     },
 
     Matematika: {
-      LIMITEAK: [
+      "1. LIMITEAK": [
         {
           title: "Limite infinitoak: Indeterminazioa (infinito zati infinito 1)",
           url: "https://youtu.be/wQRHFNya55U",
@@ -5883,7 +6143,7 @@ const videoData = {
         }
       ],
 
-      MATRIZEAK: [
+      "2. MATRIZEAK": [
         {
           title: "Matrizeak 1: Matrize baten dimentsioa eta matrize iraulia",
           url: "https://youtu.be/qBJrcKEuwpg",
@@ -5977,7 +6237,7 @@ const videoData = {
         }
       ],
 
-      "PROGRAMAZIO LINEALA": [
+      "3. PROGRAMAZIO LINEALA": [
         {
           title: "Selektibitatea GGZZ Matematikak: Programazio lineala (2019 Ekaina A1)",
           url: "https://youtu.be/oGIG_3W2R4g",
@@ -5998,7 +6258,7 @@ const videoData = {
 
   GRADUA: {
     Fisika: {
-      ZINEMATIKA: [
+      "1. ZINEMATIKA": [
         {
           title: "Fisika orokorra: Zinematika 1",
           url: "https://youtu.be/-S_NVlNrkio",
@@ -6049,8 +6309,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-
-      DINAMIKA: [
+      "2. DINAMIKA": [
         {
           title: "Fisika orokorra: Dinamika 1",
           url: "https://youtu.be/r370-QZUufQ",
@@ -6080,8 +6339,7 @@ const videoData = {
           type: "ariketa"
         }
       ],
-
-      ENERGIAK: [
+      "3. ENERGIAK": [
         {
           title: "Fisika orokorra: Lana eta energiak 1 (1/2)",
           url: "https://youtu.be/jYslal8OC_U",
@@ -6660,10 +6918,105 @@ const classroomVideoTopicsData = {
       description: "Protoiak, Neutroiak, Elektroiak, Konfigurazio elektronikoa, Balentzia Geruza, Balentzia Elektroiak, OZK, Periodoa eta Taldea.",
       duration: "3:09",
       type: "teoria"
-    },
+    }
   ],
-  "Energiarekin lotutako simulazioa": [],
-  "Grafikoak eraikitzen": []
+  "Energia lantzeko simulazioak": [
+    {
+      title: "Energia Mekanikoaren kontserbazioa (erorketa askean). Kualitatiboa",
+      url: "https://youtu.be/nJ7cJyAXCxY",
+      description: "",
+      duration: "0:12",
+      type: "teoria"
+    },
+    {
+      title: "Energia Mekanikoaren kontserbazioa (Erorketa askea). Kuantitatiboa",
+      url: "https://youtu.be/cZOvEURPgF4",
+      description: "",
+      duration: "0:12",
+      type: "teoria"
+    },
+    {
+      title: "Energia Mekanikoaren kontserbazioa (Plano Inklinatuan)",
+      url: "https://youtu.be/FWVsKR4uSxw",
+      description: "",
+      duration: "0:12",
+      type: "teoria"
+    },
+    {
+      title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura)",
+      url: "https://youtu.be/oVb-jyD3ac4",
+      description: "",
+      duration: "0:12",
+      type: "teoria"
+    },
+    {
+      title: "Energia Mekanikoa eta Indar Ez Kontserbakorrak (Marruskadura Plano Inklinatuan)",
+      url: "https://youtu.be/fSA5v0SXF3s",
+      description: "",
+      duration: "0:12",
+      type: "teoria"
+    }
+  ],
+  "Grabitazio Simulazioak": [
+    {
+      title: "Energiak Erorketa Askean",
+      url: "https://youtu.be/TrnVN-OgcGU",
+      description: "",
+      duration: "0:12",
+      type: "teoria"
+    },
+    {
+      title: "Energiak Jaurtiketa Orbitalean (Kuantitatiboa)",
+      url: "https://youtu.be/oVQb91K1KvI",
+      description: "",
+      duration: "0:17",
+      type: "teoria"
+    },
+    {
+      title: "Energiak Jaurtiketa Orbitalean (Kualitatiboa)",
+      url: "https://youtu.be/QemcrQcuXvE",
+      description: "",
+      duration: "0:06",
+      type: "teoria"
+    },
+    {
+      title: "Energiak Ihes Abiaduran",
+      url: "https://youtu.be/4TLwxMgj1tk",
+      description: "",
+      duration: "0:16",
+      type: "teoria"
+    }
+  ],
+  "Grafikoak eraikitzen": [
+    {
+      title: "Funtzio Afinak (y=mx+n)",
+      url: "https://youtu.be/IPF-dGdvnE4",
+      description: "y=2x+3",
+      duration: "1:19",
+      type: "teoria"
+    },
+    {
+      title: "Funtzio Kuadratikoak (y=ax^2+ bx + c)",
+      url: "https://youtu.be/qnQh5gWK6tE",
+      description: "y=x^2 -4x -5",
+      duration: "3:58",
+      type: "teoria"
+    },
+    {
+      title: "Metodo orokorra",
+      url: "https://youtu.be/37Ezldt2wek",
+      description: "y=2x +1",
+      duration: "1:14",
+      type: "teoria"
+    },
+    {
+      title: "Metodo orokorra",
+      url: "https://youtu.be/MtVz-md9MUs",
+      description: "y=-2x +8",
+      duration: "1:14",
+      type: "teoria"
+    }
+  ]
 };
 
 function createClassroomTopicButton(topic, videos) {
