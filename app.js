@@ -533,6 +533,41 @@ const videoData = {
           description: "Gatz bitarren beste kasu batzuk.",
           duration: "5:38",
           type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 20: Oxoazidoak izendapen sistematikoan",
+          url: "https://youtu.be/Dq3WcfRcoxY",
+          description: "",
+          duration: "4:27",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 21: Elementu Bereziak (Cr, Mn, N)",
+          url: "https://youtu.be/tjS-W1gcEZg",
+          description: "",
+          duration: "8:49",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 22: Gatz Hirutarrak (Izendapen Sistematikoa)",
+          url: "https://youtu.be/Zt1V52c0kcA",
+          description: "",
+          duration: "2:50",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 23: Gatz Hirutarrak (Stock Izendapena)",
+          url: "https://youtu.be/4w5epkHIJEU",
+          description: "",
+          duration: "10:43",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 25: Gatz Hirutarrak (Izenetik Formulara)",
+          url: "https://youtu.be/OHWxsyfdm0U",
+          description: "",
+          duration: "7:44",
+          type: ["teoria", "ariketa"]
         }
         ],
       "6. ZENBAKI KUANTIKOAK": [
@@ -1583,6 +1618,41 @@ const videoData = {
           url: "https://youtu.be/dNtxMmV3ls0",
           description: "Gatz bitarren beste kasu batzuk.",
           duration: "5:38",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 20: Oxoazidoak izendapen sistematikoan",
+          url: "https://youtu.be/Dq3WcfRcoxY",
+          description: "",
+          duration: "4:27",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 21: Elementu Bereziak (Cr, Mn, N)",
+          url: "https://youtu.be/tjS-W1gcEZg",
+          description: "",
+          duration: "8:49",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 22: Gatz Hirutarrak (Izendapen Sistematikoa)",
+          url: "https://youtu.be/Zt1V52c0kcA",
+          description: "",
+          duration: "2:50",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 23: Gatz Hirutarrak (Stock Izendapena)",
+          url: "https://youtu.be/4w5epkHIJEU",
+          description: "",
+          duration: "10:43",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 25: Gatz Hirutarrak (Izenetik Formulara)",
+          url: "https://youtu.be/OHWxsyfdm0U",
+          description: "",
+          duration: "7:44",
           type: ["teoria", "ariketa"]
         }
         ],
@@ -3010,8 +3080,43 @@ const videoData = {
           description: "Gatz bitarren beste kasu batzuk.",
           duration: "5:38",
           type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 20: Oxoazidoak izendapen sistematikoan",
+          url: "https://youtu.be/Dq3WcfRcoxY",
+          description: "",
+          duration: "4:27",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 21: Elementu Bereziak (Cr, Mn, N)",
+          url: "https://youtu.be/tjS-W1gcEZg",
+          description: "",
+          duration: "8:49",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 22: Gatz Hirutarrak (Izendapen Sistematikoa)",
+          url: "https://youtu.be/Zt1V52c0kcA",
+          description: "",
+          duration: "2:50",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 23: Gatz Hirutarrak (Stock Izendapena)",
+          url: "https://youtu.be/4w5epkHIJEU",
+          description: "",
+          duration: "10:43",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 25: Gatz Hirutarrak (Izenetik Formulara)",
+          url: "https://youtu.be/OHWxsyfdm0U",
+          description: "",
+          duration: "7:44",
+          type: ["teoria", "ariketa"]
         }
-      ],
+        ],
       "5. ZENBAKI KUANTIKOAK": [
         {
           title: "Zenbaki kuantikoak (sarrera)",
@@ -4196,7 +4301,8 @@ const videoData = {
           type: ["teoria", "ariketa"]
         }
       ],
-      "4. FORMULAZIOA": [{
+      "4. FORMULAZIOA": [
+        {
           title: "Formulazioa 1: Konposatu kimikoak",
           url: "https://youtu.be/O-t8mW5ODVA",
           description: "Konposatu kimikoen oinarrizko azalpena eta ariketak.",
@@ -4335,8 +4441,43 @@ const videoData = {
           description: "Gatz bitarren beste kasu batzuk.",
           duration: "5:38",
           type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 20: Oxoazidoak izendapen sistematikoan",
+          url: "https://youtu.be/Dq3WcfRcoxY",
+          description: "",
+          duration: "4:27",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 21: Elementu Bereziak (Cr, Mn, N)",
+          url: "https://youtu.be/tjS-W1gcEZg",
+          description: "",
+          duration: "8:49",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 22: Gatz Hirutarrak (Izendapen Sistematikoa)",
+          url: "https://youtu.be/Zt1V52c0kcA",
+          description: "",
+          duration: "2:50",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 23: Gatz Hirutarrak (Stock Izendapena)",
+          url: "https://youtu.be/4w5epkHIJEU",
+          description: "",
+          duration: "10:43",
+          type: ["teoria", "ariketa"]
+        },
+        {
+          title: "FORMULAZIOA 25: Gatz Hirutarrak (Izenetik Formulara)",
+          url: "https://youtu.be/OHWxsyfdm0U",
+          description: "",
+          duration: "7:44",
+          type: ["teoria", "ariketa"]
         }
-      ],
+        ],
       "5. ZENBAKI KUANTIKOAK": [
         {
           title: "Zenbaki kuantikoak (sarrera)",
@@ -6236,8 +6377,86 @@ const videoData = {
           type: "ariketa"
         }
       ],
-
-      "3. PROGRAMAZIO LINEALA": [
+      "3. DETERMINANTEAK": [
+        {
+          title: "DETERMINANTEAK 1: Matrizen baten determinantea (2x2)",
+          url: "https://youtu.be/jeQ8mjWWZ-M",
+          description: "",
+          duration: "3:10",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 2: Matrizen baten determinantea (3x3)",
+          url: "https://youtu.be/PBRk51NmmxQ",
+          description: "",
+          duration: "5:43",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 3: Minoro osagarria eta adjuntua",
+          url: "https://youtu.be/a5mXJqbKUKU",
+          description: "",
+          duration: "6:29",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 4: Determinanteak adjuntuekin (3x3)",
+          url: "https://youtu.be/oAvo4mdoCXE",
+          description: "",
+          duration: "4:54",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 5: Determinanteak adjuntuekin (4x4)",
+          url: "https://youtu.be/slz9wcdh_hs",
+          description: "",
+          duration: "10:11",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 6: Matrize adjuntua",
+          url: "https://youtu.be/mIeGfJY2Krc",
+          description: "",
+          duration: "5:43",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 7: Matrizen baten alderantzizkoa",
+          url: "https://youtu.be/N-vf4xB0u04",
+          description: "",
+          duration: "9:38",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 8: Alderantzizko matrizea parametroekin",
+          url: "https://youtu.be/fLiz3eRrVz8",
+          description: "",
+          duration: "4:38",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 9: Ekuazio Matrizialak",
+          url: "https://youtu.be/gG7q8Di074w",
+          description: "",
+          duration: "4:29",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 10: Matrizen baten heina determinanteen bidez",
+          url: "https://youtu.be/JECyFOLIOoM",
+          description: "",
+          duration: "5:56",
+          type: "teoria"
+        },
+        {
+          title: "DETERMINANTEAK 11: Matrize baten heina parametroekin",
+          url: "https://youtu.be/RvXqGWEpRrw",
+          description: "",
+          duration: "4:22",
+          type: "ariketa"
+        }
+      ],
+      "4. PROGRAMAZIO LINEALA": [
         {
           title: "Selektibitatea GGZZ Matematikak: Programazio lineala (2019 Ekaina A1)",
           url: "https://youtu.be/oGIG_3W2R4g",
@@ -6624,6 +6843,16 @@ const pwaCatalog = [
     url: "https://fisikasi2016.github.io/aditzapp-azterketa/",
     icon: "🎯",
     image: "./assets/aditzapp-azterketa.png"
+  },
+  {
+    id: "GertakariAPP",
+    title: "GertakariAPP",
+    description: "Historia selektibitateko ariketa kronologikoa praktikatzeko.",
+    category: "Historia",
+    level: "Batxi2",
+    url: "https://fisikasi2016.github.io/GertakariAPP/",
+    icon: "🎯",
+    image: "./assets/gertakariapp.png"
   }
 ];
 
@@ -6694,7 +6923,7 @@ function renderPWACatalog() {
     return;
   }
 
-  const subjectsOrder = ["Euskara", "Fisika eta Kimika"];
+  const subjectsOrder = ["Euskara", "Fisika eta Kimika", "Historia"];
 
   subjectsOrder.forEach((subject) => {
     const apps = pwaCatalog.filter((app) => app.category === subject);
@@ -6734,41 +6963,49 @@ const teacherResourcesData = [
     type: "folder",
     title: "Formulazioa",
     children: [
+      
       {
-        type: "link",
-        title: "Oxidazio Zenbakien Taula (Kolorearekin)",
-        url: "https://drive.google.com/file/d/0B07Fl761VBlXVHVCOUlQTlQ5cXc/view?usp=drive_link&resourcekey=0-xTTLyHONj8HPSH-jWOTOAg",
-        resourceType: "dokumentua",
-        description: "Oinarrizko formulazio arauak"
-      },
-      {
-        type: "link",
-        title: "Oxidazio Zenbakien Taula (Kolorerik gabe)",
-        url: "https://drive.google.com/file/d/0B07Fl761VBlXMHR4UC1BMVM5dFk/view?usp=drive_link&resourcekey=0-QOmVj3jZGIohGRqjsTCUOg",
-        resourceType: "dokumentua",
-        description: "Oinarrizko formulazio arauak"
-      },
-      {
-        type: "link",
-        title: "Izen Arraroen zerrenda",
-        url: "https://drive.google.com/file/d/0B07Fl761VBlXdnVyRi13eWhSWms/view?usp=drive_link&resourcekey=0-XZXh4R6sjIcJluawvvMb4Q",
-        resourceType: "dokumentua",
-        description: "Oinarrizko formulazio arauak"
-      },
-      {
-        type: "link",
-        title: "Ez metalak + URO",
-        url: "https://drive.google.com/file/d/1kbBdm_Vn0NW8XT4dbZJB02nmEE0IV0c-/view?usp=drive_link",
-        resourceType: "dokumentua",
-        description: "Oinarrizko formulazio arauak"
-      },
-      {
-        type: "link",
-        title: "FormuApp",
-        url: "https://fisikasi2016.github.io/formuapp/",
-        resourceType: "webgunea",
-        description: "Formulazioa praktikatzeko aplikazioa"
-      }
+        type: "folder",
+        title: "Dokumentuak",
+        children: [
+
+          {
+            type: "link",
+            title: "Oxidazio Zenbakien Taula (Kolorearekin)",
+            url: "https://drive.google.com/file/d/0B07Fl761VBlXVHVCOUlQTlQ5cXc/view?usp=drive_link&resourcekey=0-xTTLyHONj8HPSH-jWOTOAg",
+            resourceType: "dokumentua",
+            description: "Oinarrizko formulazio arauak"
+          },
+          {
+            type: "link",
+            title: "Oxidazio Zenbakien Taula (Kolorerik gabe)",
+            url: "https://drive.google.com/file/d/0B07Fl761VBlXMHR4UC1BMVM5dFk/view?usp=drive_link&resourcekey=0-QOmVj3jZGIohGRqjsTCUOg",
+            resourceType: "dokumentua",
+            description: "Oinarrizko formulazio arauak"
+          },
+          {
+            type: "link",
+            title: "Izen Arraroen zerrenda",
+            url: "https://drive.google.com/file/d/0B07Fl761VBlXdnVyRi13eWhSWms/view?usp=drive_link&resourcekey=0-XZXh4R6sjIcJluawvvMb4Q",
+            resourceType: "dokumentua",
+            description: "Oinarrizko formulazio arauak"
+          },
+          {
+            type: "link",
+            title: "Ez metalak + URO",
+            url: "https://drive.google.com/file/d/1kbBdm_Vn0NW8XT4dbZJB02nmEE0IV0c-/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "Oinarrizko formulazio arauak"
+          },
+          {
+            type: "link",
+            title: "FormuApp",
+            url: "https://fisikasi2016.github.io/formuapp/",
+            resourceType: "webgunea",
+            description: "Formulazioa praktikatzeko aplikazioa"
+          }
+        ]
+     }
     ]
   },
   {
@@ -6790,23 +7027,52 @@ const teacherResourcesData = [
     children: [
       {
         type: "link",
-        title: "Fisikaren Didaktika Bigarren Hezkuntzan",
+        title: "Didàctica de la física per a l'educació secundària obligatòria",
         url: "https://monografies.uab.cat/monografies/catalog/view/mat0244/pdf/196",
         resourceType: "dokumentua",
         description: "Bartzelonako Unibertsitatean sortutako liburua zeinetan Fisika irakasgaia Derrigorrezko Bigarren Hezkuntzan nola landu daitekeen azaltzen duten"
-      }
-    ]
-  },
-  {
-    type: "folder",
-    title: "Gomendatutako web orrialdeak",
-    children: [
+      },
       {
         type: "link",
-        title: "FJ Aramendiaren Google Sites",
-        url: "https://sites.google.com/site/fisikafjaramendia/hasiera",
+        title: "Mueve la Lengua, que el cerebro te seguirá. 75 acciones lingüísticas para enseñar a pensar Ciencias",
+        url: "https://jordidomenechportfolio.wordpress.com/2022/10/25/mueve-la-lengua-que-el-cerebro-te-seguira-75-acciones-linguisticas-para-ensenar-a-pensar-ciencias/",
         resourceType: "dokumentua",
-        description: "FJ Aramendiak material bikainak ditu Batxilergoko irakasgai ezberdinetarako."
+        description: "Zientziak eta hizkuntza modu bateratuan nola irakas daitekeen azaltzen digu liburu honek. Ideia bikainak modu entretenigarri batean azalduak."
+      },
+      {
+        type: "link",
+        title: "Proiektuetan, lan praktikoetan eta eztabaidetan oinarrituriko ikaskuntza. Zientziak irakasteko 28 proposamen eta gogoeta",
+        url: "https://web-argitalpena.adm.ehu.es/listaproductos.asp?IdProducts=UPEPA224110&titulo=Proiektuetan,%20lan%20praktikoetan%20eta%20eztabaidetan%20oinarrituriko%20ikaskuntza.%20Zientziak%20irakasteko%2028%20proposamen%20eta%20gogoeta",
+        resourceType: "dokumentua",
+        description: "Zientziak irakasteko modua eta estrategiei buruz hausnartzen du liburu honek. Jordi Domenech ideia eta hausnarketa bikainak ditu zientizien didaktikan"
+      },
+      {
+        type: "link",
+        title: "Una Fisica para todos",
+        url: "https://unaquimicaparatodos.com/producto/una-fisica-para-todos/",
+        resourceType: "dokumentua",
+        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
+      },
+      {
+        type: "link",
+        title: "Una Quimica para todos",
+        url: "https://unaquimicaparatodos.com/producto/una-quimica-para-todos-libro-principal/",
+        resourceType: "dokumentua",
+        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
+      },
+      {
+        type: "link",
+        title: "Una Matematica para todos (CCSS)",
+        url: "https://unaquimicaparatodos.com/producto/unas-matematicas-para-todos-sociales/",
+        resourceType: "dokumentua",
+        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
+      },
+      {
+        type: "link",
+        title: "Una Matematica para todos",
+        url: "https://unaquimicaparatodos.com/producto/unas-matematicas-para-todos/",
+        resourceType: "dokumentua",
+        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
       }
     ]
   },
@@ -6820,6 +7086,53 @@ const teacherResourcesData = [
         url: "https://www.youtube.com/c/3blue1brown",
         resourceType: "dokumentua",
         description: "Matematikak modu ikusgarrian ikasteko (maila altuko bideoak)"
+      },
+      {
+        type: "link",
+        title: "Veritasium kanala",
+        url: "https://www.youtube.com/@veritasium",
+        resourceType: "dokumentua",
+        description: "Zientziarekin erlazionatutako bideo interesgarriak (inglesez dago, baina badauka kanala gazteleraz ere)."
+      },
+      {
+        type: "link",
+        title: "Quantum fracture kanala",
+        url: "https://www.youtube.com/@QuantumFracture",
+        resourceType: "dokumentua",
+        description: "Zientziari (fisikari) buruzko bideoak, simulazio atseginekin."
+      },
+      {
+        type: "link",
+        title: "Derivando kanala",
+        url: "https://www.youtube.com/@Derivando",
+        resourceType: "dokumentua",
+        description: "Matematikari buruzko bideo laburrak azalpen interesgarriekin."
+      },{
+        type: "link",
+        title: "Hrom kanala",
+        url: "https://www.youtube.com/@HRom",
+        resourceType: "dokumentua",
+        description: "Zientzia azalpenak eguneroko fenomenoen bitartez azalduak."
+      }
+    ]
+  },
+  {
+    type: "folder",
+    title: "Material interesgarria",
+    children: [
+      {
+        type: "link",
+        title: "FJ Aramendiaren Google Sites",
+        url: "https://sites.google.com/site/fisikafjaramendia/hasiera",
+        resourceType: "dokumentua",
+        description: "FJ Aramendiak material bikainak ditu Batxilergoko irakasgai ezberdinetarako."
+      },
+      {
+        type: "link",
+        title: "Irakaslearen Koaderno Digitala",
+        url: "https://www.youtube.com/playlist?list=PL9OLH4hN0qlrOfYDqtZXgSKjRyltu0jHL",
+        resourceType: "dokumentua",
+        description: "Ebaluazio hezitzailea aurrera eramateko sortutako softwarea. Erabili nahi izatekotan jarri kontaktuan fisikasi2016@gmail.com helbidean."
       }
     ]
   }

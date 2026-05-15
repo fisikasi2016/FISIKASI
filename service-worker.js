@@ -1,4 +1,4 @@
-const CACHE_NAME = "fisikasi-v39";
+const CACHE_NAME = "fisikasi-40";
 
 const urlsToCache = [
   "./",
@@ -13,6 +13,7 @@ const urlsToCache = [
   "./assets/aditzapp-indikatiboa.png",
   "./assets/aditzapp-baldintza.png",
   "./assets/aditzapp-azterketa.png",
+  "./assets/gertakariapp.png",
   "./app.js"
 ];
 
