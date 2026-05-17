@@ -1,4 +1,4 @@
-const CACHE_NAME = "fisikasi-40";
+const CACHE_NAME = "fisikasi-41";
 
 const urlsToCache = [
   "./",
@@ -8,12 +8,14 @@ const urlsToCache = [
   "./kanaleko-bideoak.html",
   "./irakasleentzako-baliabideak.html",
   "./bestelako-baliabideak.html",
+  "./irakaslearen-koaderno-digitala.html",
   "./assets/logo.png",
   "./assets/formuapp.png",
   "./assets/aditzapp-indikatiboa.png",
   "./assets/aditzapp-baldintza.png",
   "./assets/aditzapp-azterketa.png",
   "./assets/gertakariapp.png",
+  "./assets/koaderno-digitala.png",
   "./app.js"
 ];
 

@@ -6578,6 +6578,114 @@ const videoData = {
   }
 };
 
+
+const koadernoDigitalaVideos = [
+  {
+    title: "Koadernoa Sortu",
+    url: "https://youtu.be/RWcAZQCHnEw",
+    description: "",
+    duration: "1:41",
+    type: "teoria"
+  },
+  {
+    title: "Konpetentziak eta Ebaluazio Irizpideak",
+    url: "https://youtu.be/y9uUzWS6OHk",
+    description: "4:08",
+    duration: "",
+    type: "teoria"
+  },
+  {
+    title: "Lorpen adierazleak",
+    url: "https://youtu.be/c4FHWxZYlU8",
+    description: "",
+    duration: "2:17",
+    type: "teoria"
+  },
+  {
+    title: "Ikasleak berriak sortu",
+    url: "https://youtu.be/8fvhrPgJIT0",
+    description: "",
+    duration: "0:41",
+    type: "teoria"
+  },
+  {
+    title: "Ebaluazio tresnak",
+    url: "https://youtu.be/SF-Pln2zjVY",
+    description: "",
+    duration: "4:02",
+    type: "teoria"
+  },
+  {
+    title: "Klasea bikoiztu",
+    url: "https://youtu.be/6JZnwIBMU54",
+    description: "",
+    duration: "1:31",
+    type: "teoria"
+  },
+  {
+    title: "Ikasleak ebaluatu",
+    url: "https://youtu.be/go-kK18Fp9k",
+    description: "",
+    duration: "1:24",
+    type: "teoria"
+  },
+  {
+    title: "Oharrak eta Ebaluazio Hezitzailea",
+    url: "https://youtu.be/J1c38DuP7xg",
+    description: "",
+    duration: "5:58",
+    type: "teoria"
+  },
+  {
+    title: "Notaren kalkulua",
+    url: "https://youtu.be/1WD1YSVSCZM",
+    description: "",
+    duration: "6:29",
+    type: "teoria"
+  },
+  {
+    title: "Ikaslearen orria",
+    url: "https://youtu.be/I7ol4tZoQZQ",
+    description: "",
+    duration: "3:53",
+    type: "teoria"
+  },
+  {
+    title: "Konpetentzien orria",
+    url: "https://youtu.be/XMdiS4ST100",
+    description: "",
+    duration: "1:53",
+    type: "teoria"
+  },
+  {
+    title: "Txostenak deskargatu",
+    url: "https://youtu.be/dgW6p0EFjdk",
+    description: "",
+    duration: "2:05",
+    type: "teoria"
+  },
+  {
+    title: "Kontuz!  Ez borratu",
+    url: "https://youtu.be/BIuGNGetCTY",
+    description: "",
+    duration: "1:35",
+    type: "teoria"
+  }
+
+];
+
+function renderKoadernoDigitalaVideos() {
+  const container = document.getElementById("koaderno-videos-container");
+
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  koadernoDigitalaVideos.forEach((video) => {
+    container.appendChild(createVideoCard(video));
+  });
+}
+
 const subjectSelect = document.getElementById("subject-select");
 const levelSelect = document.getElementById("level-select");
 const searchBtn = document.getElementById("search-btn");
@@ -7398,6 +7506,7 @@ function renderClassroomVideoTopics() {
 document.addEventListener("DOMContentLoaded", () => {
   renderTeacherResources();
   renderClassroomVideoTopics();
+  renderKoadernoDigitalaVideos();
 });
 
 
