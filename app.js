@@ -7062,198 +7062,142 @@ document.addEventListener("DOMContentLoaded", () => {
   renderPWACatalog();
 });
 
-// ===============================
-// IRAKASLEENTZAKO BALIABIDEAK
-// ===============================
+
 
 const teacherResourcesData = [
   {
     type: "folder",
-    title: "Formulazioa",
+    title: "Ariketak",
     children: [
-      
       {
         type: "folder",
-        title: "Dokumentuak",
+        title: "Formulazioa",
+        children: []
+      },
+      {
+        type: "folder",
+        title: "Erreakzio Kimikoak",
         children: [
-
+          {
+            type: "link",
+            title: "Ariketa bilduma",
+            url: "https://drive.google.com/file/d/1yRLAShHb2y4HDlSOnyz6cHgZDQpH62Kv/view?usp=sharing",
+            resourceType: "dokumentua",
+            description: "Bideoetan ebatzita dauden ariketen enuntziatuak"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    type: "folder",
+    title: "Azterketak",
+    children: [
+      {
+        type: "folder",
+        title: "Formulazioa",
+        children: []
+      },
+      {
+        type: "folder",
+        title: "Erreakzio Kimikoak",
+        children: []
+      }
+    ]
+  },
+  {
+    type: "folder",
+    title: "Apunteak",
+    children: [
+      {
+        type: "folder",
+        title: "Formulazioa",
+        children: [
           {
             type: "link",
             title: "Oxidazio Zenbakien Taula (Kolorearekin)",
             url: "https://drive.google.com/file/d/0B07Fl761VBlXVHVCOUlQTlQ5cXc/view?usp=drive_link&resourcekey=0-xTTLyHONj8HPSH-jWOTOAg",
             resourceType: "dokumentua",
-            description: "Oinarrizko formulazio arauak"
+            description: "Elementu kimiko bakoitzari dagozkion oxidazio zenbakiak eta balentziak",
+            tag: "Oxidazio zenbakiak, Balentziak, DBH, Batxilergoa"
           },
           {
             type: "link",
             title: "Oxidazio Zenbakien Taula (Kolorerik gabe)",
             url: "https://drive.google.com/file/d/0B07Fl761VBlXMHR4UC1BMVM5dFk/view?usp=drive_link&resourcekey=0-QOmVj3jZGIohGRqjsTCUOg",
             resourceType: "dokumentua",
-            description: "Oinarrizko formulazio arauak"
+            description: "Elementu kimiko bakoitzari dagozkion oxidazio zenbakiak eta balentziak",
+            tag: "Oxidazio zenbakiak, Balentziak, DBH, Batxilergoa"
           },
           {
             type: "link",
             title: "Izen Arraroen zerrenda",
             url: "https://drive.google.com/file/d/0B07Fl761VBlXdnVyRi13eWhSWms/view?usp=drive_link&resourcekey=0-XZXh4R6sjIcJluawvvMb4Q",
             resourceType: "dokumentua",
-            description: "Oinarrizko formulazio arauak"
+            description: "Izendapen tradizionalean zenbait elementu kimiko haien latinezko izena erabiltzen dute, hemen zerrendatuta dituzu",
+            tag: "Izendapen Tradizionala, Latina, DBH, Batxilergoa"
           },
           {
             type: "link",
             title: "Ez metalak + URO",
             url: "https://drive.google.com/file/d/1kbBdm_Vn0NW8XT4dbZJB02nmEE0IV0c-/view?usp=drive_link",
             resourceType: "dokumentua",
-            description: "Oinarrizko formulazio arauak"
-          },
-          {
-            type: "link",
-            title: "FormuApp",
-            url: "https://fisikasi2016.github.io/formuapp/",
-            resourceType: "webgunea",
-            description: "Formulazioa praktikatzeko aplikazioa"
+            description: "Ez Metalak bigarren elementuak direnean -uro atzizkiarekin diazten dira. Hemen ez metalak atzizki horrekin hartzen duten forma ",
+            tag: "Ez Metalak, DBH, Batxilergoa"
           }
         ]
-     }
-    ]
-  },
-  {
-    type: "folder",
-    title: "Erreakzio Kimikoak",
-    children: [
-      {
-        type: "link",
-        title: "Ariketa bilduma",
-        url: "https://drive.google.com/file/d/1yRLAShHb2y4HDlSOnyz6cHgZDQpH62Kv/view?usp=sharing",
-        resourceType: "dokumentua",
-        description: "Bideoetan ebatzita dauden ariketen enuntziatuak"
-      }
-    ]
-  },
-  {
-    type: "folder",
-    title: "Gomendatutako liburuak",
-    children: [
-      {
-        type: "link",
-        title: "Didàctica de la física per a l'educació secundària obligatòria",
-        url: "https://monografies.uab.cat/monografies/catalog/view/mat0244/pdf/196",
-        resourceType: "dokumentua",
-        description: "Bartzelonako Unibertsitatean sortutako liburua zeinetan Fisika irakasgaia Derrigorrezko Bigarren Hezkuntzan nola landu daitekeen azaltzen duten"
       },
       {
-        type: "link",
-        title: "Mueve la Lengua, que el cerebro te seguirá. 75 acciones lingüísticas para enseñar a pensar Ciencias",
-        url: "https://jordidomenechportfolio.wordpress.com/2022/10/25/mueve-la-lengua-que-el-cerebro-te-seguira-75-acciones-linguisticas-para-ensenar-a-pensar-ciencias/",
-        resourceType: "dokumentua",
-        description: "Zientziak eta hizkuntza modu bateratuan nola irakas daitekeen azaltzen digu liburu honek. Ideia bikainak modu entretenigarri batean azalduak."
-      },
-      {
-        type: "link",
-        title: "Proiektuetan, lan praktikoetan eta eztabaidetan oinarrituriko ikaskuntza. Zientziak irakasteko 28 proposamen eta gogoeta",
-        url: "https://web-argitalpena.adm.ehu.es/listaproductos.asp?IdProducts=UPEPA224110&titulo=Proiektuetan,%20lan%20praktikoetan%20eta%20eztabaidetan%20oinarrituriko%20ikaskuntza.%20Zientziak%20irakasteko%2028%20proposamen%20eta%20gogoeta",
-        resourceType: "dokumentua",
-        description: "Zientziak irakasteko modua eta estrategiei buruz hausnartzen du liburu honek. Jordi Domenech ideia eta hausnarketa bikainak ditu zientizien didaktikan"
-      },
-      {
-        type: "link",
-        title: "Una Fisica para todos",
-        url: "https://unaquimicaparatodos.com/producto/una-fisica-para-todos/",
-        resourceType: "dokumentua",
-        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
-      },
-      {
-        type: "link",
-        title: "Una Quimica para todos",
-        url: "https://unaquimicaparatodos.com/producto/una-quimica-para-todos-libro-principal/",
-        resourceType: "dokumentua",
-        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
-      },
-      {
-        type: "link",
-        title: "Una Matematica para todos (CCSS)",
-        url: "https://unaquimicaparatodos.com/producto/unas-matematicas-para-todos-sociales/",
-        resourceType: "dokumentua",
-        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
-      },
-      {
-        type: "link",
-        title: "Una Matematica para todos",
-        url: "https://unaquimicaparatodos.com/producto/unas-matematicas-para-todos/",
-        resourceType: "dokumentua",
-        description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera."
-      }
-    ]
-  },
-  {
-    type: "folder",
-    title: "Gomendatutako bideoak",
-    children: [
-      {
-        type: "link",
-        title: "Three Blue One Brown kanala",
-        url: "https://www.youtube.com/c/3blue1brown",
-        resourceType: "dokumentua",
-        description: "Matematikak modu ikusgarrian ikasteko (maila altuko bideoak)"
-      },
-      {
-        type: "link",
-        title: "Veritasium kanala",
-        url: "https://www.youtube.com/@veritasium",
-        resourceType: "dokumentua",
-        description: "Zientziarekin erlazionatutako bideo interesgarriak (inglesez dago, baina badauka kanala gazteleraz ere)."
-      },
-      {
-        type: "link",
-        title: "Quantum fracture kanala",
-        url: "https://www.youtube.com/@QuantumFracture",
-        resourceType: "dokumentua",
-        description: "Zientziari (fisikari) buruzko bideoak, simulazio atseginekin."
-      },
-      {
-        type: "link",
-        title: "Derivando kanala",
-        url: "https://www.youtube.com/@Derivando",
-        resourceType: "dokumentua",
-        description: "Matematikari buruzko bideo laburrak azalpen interesgarriekin."
-      },{
-        type: "link",
-        title: "Hrom kanala",
-        url: "https://www.youtube.com/@HRom",
-        resourceType: "dokumentua",
-        description: "Zientzia azalpenak eguneroko fenomenoen bitartez azalduak."
-      }
-    ]
-  },
-  {
-    type: "folder",
-    title: "Material interesgarria",
-    children: [
-      {
-        type: "link",
-        title: "FJ Aramendiaren Google Sites",
-        url: "https://sites.google.com/site/fisikafjaramendia/hasiera",
-        resourceType: "dokumentua",
-        description: "FJ Aramendiak material bikainak ditu Batxilergoko irakasgai ezberdinetarako."
-      },
-      {
-        type: "link",
-        title: "Irakaslearen Koaderno Digitala",
-        url: "https://www.youtube.com/playlist?list=PL9OLH4hN0qlrOfYDqtZXgSKjRyltu0jHL",
-        resourceType: "dokumentua",
-        description: "Ebaluazio hezitzailea aurrera eramateko sortutako softwarea. Erabili nahi izatekotan jarri kontaktuan fisikasi2016@gmail.com helbidean."
+        type: "folder",
+        title: "Erreakzio Kimikoak",
+        children: []
       }
     ]
   }
 ];
+
+function countResources(item) {
+  if (!item.children) {
+    return {
+      folders: 0,
+      links: item.type === "link" ? 1 : 0
+    };
+  }
+
+  return item.children.reduce(
+    (total, child) => {
+      const childCount = countResources(child);
+
+      return {
+        folders: total.folders + (child.type === "folder" ? 1 : 0),
+        links: total.links + childCount.links
+      };
+    },
+    { folders: 0, links: 0 }
+  );
+}
 
 function createResourceItem(item) {
   if (item.type === "folder") {
     const container = document.createElement("div");
     container.className = "folder";
 
+    const counts = countResources(item);
+
     const header = document.createElement("div");
     header.className = "folder-header";
-    header.innerHTML = `📁 ${item.title}`;
+
+    if (counts.folders > 0) {
+      header.innerHTML = `
+        <span>📁 ${item.title}</span>
+        <span class="folder-count">${counts.folders} gai / ${counts.links} baliabide</span>
+      `;
+    } else {
+      header.innerHTML = `
+        <span>📁 ${item.title}</span>
+        <span class="folder-count">${counts.links} baliabide</span>
+      `;
+    }
 
     const content = document.createElement("div");
     content.className = "folder-content hidden";
@@ -7283,9 +7227,20 @@ function createResourceItem(item) {
     if (item.resourceType === "dokumentua") icon = "📄";
     if (item.resourceType === "webgunea") icon = "🌐";
 
+    const tags = item.tag
+      ? item.tag.split(",").map(tag => tag.trim()).filter(Boolean)
+      : [];
+
+    const tagsHTML = tags.length
+      ? `<div class="resource-tags">
+          ${tags.map(tag => `<span class="resource-tag">${tag}</span>`).join("")}
+        </div>`
+      : "";
+
     link.innerHTML = `
       <div class="resource-title">${icon} ${item.title}</div>
       <div class="resource-desc">${item.description || ""}</div>
+      ${tagsHTML}
     `;
 
     return link;
@@ -7301,6 +7256,300 @@ function renderTeacherResources() {
   teacherResourcesData.forEach(item => {
     container.appendChild(createResourceItem(item));
   });
+}
+
+const recommendedBooks = [
+  {
+    title: "Didàctica de la física per a l'educació secundària obligatòria",
+    author: "Digna Couso; Víctor López-Simó",
+    image: "assets/liburuak/didactica-fisica.png",
+    description: "Fisika DBHn lantzeko proposamen didaktikoak.",
+    rating: 5,
+    language: "Katalana"
+  },
+  {
+    title: "Mueve la Lengua, que el cerebro te seguirá. 75 acciones lingüísticas para enseñar a pensar Ciencias",
+    author: "Jordi Domènech",
+    image: "assets/liburuak/mueve-la-lengua.png",
+    description: "Zientziak eta hizkuntza batera lantzeko ideiak.",
+    rating: 5,
+    language: "Gaztelera"
+  },
+  {
+    title: "Thinking Classrooms (Aulas para pensar en Matemáticas)",
+    author: "Peter Liljedahl",
+    image: "assets/liburuak/thinking.png",
+    description: "Zientziak irakasteko modua eta estrategiei buruz hausnartzen du liburu honek. Jordi Domenech ideia eta hausnarketa bikainak ditu zientizien didaktikan.",
+    rating: 4,
+    language: "Gaztelera"
+  },
+  {
+    title: "Proiektuetan, lan praktikoetan eta eztabaidetan oinarrituriko ikaskuntza. Zientziak irakasteko 28 proposamen eta gogoeta",
+    author: "Jordi Domènech",
+    image: "assets/liburuak/domenech1.png",
+    description: "Matematikak (eta beste irakasgai batzuk) irakaste modu berritzailea. Helburua: ahalik eta ikasle gehien, ahalik eta denbora gehien pentsatzen aritzea",
+    rating: 5,
+    language: "Gaztelera"
+  },
+  {
+    title: "Una Fisica para todos",
+    author: "Academia Osorio",
+    image: "assets/liburuak/fisica-para-todos.png",
+    description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera.",
+    rating: 5,
+    language: "Gaztelera"
+  },
+  {
+    title: "Una Quimica para todos",
+    author: "Academia Osorio",
+    image: "assets/liburuak/quimica-para-todos.png",
+    description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera.",
+    rating: 5,
+    language: "Gaztelera"
+  },
+  {
+    title: "Una Matematica para todos",
+    author: "Academia Osorio",
+    image: "assets/liburuak/matematica-todos.png",
+    description: "Madrilgo akademia batek Selektibitatea prestatzeko argitaratutako liburua. Teoria laburra eta ariketak antolatuta zialtasun mailaren arabera.",
+    rating: 5,
+    language: "Gaztelera"
+  },
+  {
+    title: "Una Matematica para todos (CCSS)",
+    author: "Academia Osorio",
+    image: "assets/liburuak/matematica-todos-ccss.png",
+    description: "Zientziak eta hizkuntza batera lantzeko ideiak.",
+    rating: 5,
+    language: "Gaztelera"
+  }
+];
+
+const recommendedVideos = [
+  {
+    url: "https://www.youtube.com/@veritasium",
+    title: "Veritasium kanala",
+    image: "assets/kanalak/veritasium.png",
+    description: "Zientziari buruzko azalpen interesgarriak.",
+    rating: 5,
+    language: "Ingelesa",
+    topic: "zientzia",
+    linkType: "Kanala"
+  },
+  {
+    url: "https://www.youtube.com/@QuantumFracture",
+    title: "QuantumFracture kanala",
+    image: "assets/kanalak/quantum.png",
+    description: "Fisika eta zientzia modu bisualean azaltzen dituen kanala.",
+    rating: 4,
+    language: "Gaztelera",
+    topic: "fisika",
+    linkType: "Kanala"
+  },
+  {
+    url: "https://www.youtube.com/c/3blue1brown",
+    title: "Three Blue One Brown kanala",
+    image: "assets/kanalak/3blue1brown.png",
+    description: "Matematikak modu ikusgarrian ikasteko (maila altuko bideoak)",
+    rating: 5,
+    language: "Ingelera",
+    topic: "matematika",
+    linkType: "Kanala"
+  },
+  {
+    url: "https://www.youtube.com/@Derivando",
+    title: "Derivando kanala",
+    image: "assets/kanalak/derivando.png",
+    description: "Matematikari buruzko bideo laburrak azalpen interesgarriekin.",
+    rating: 4,
+    language: "Gaztelera",
+    topic: "matematika",
+    linkType: "Kanala"
+  },
+  {
+    url: "https://www.youtube.com/@HRom",
+    title: "Hrom kanala",
+    image: "assets/kanalak/hrom.png",
+    description: "Zientzia azalpenak eguneroko fenomenoen bitartez azalduak.",
+    rating: 5,
+    language: "Gaztelera",
+    topic: "fiki",
+    linkType: "Kanala"
+  }
+
+];
+
+const recommendedWebsites = [
+  {
+    title: "PhET Simulazioak",
+    url: "https://phet.colorado.edu/",
+    description: "Fisika, kimika eta matematikako simulazio interaktiboak.",
+    language: "Euskera",
+    topic: "Zientzia",
+    rating: 5
+  },
+  {
+    title: "FJ Aramendiaren Google Sites",
+    url: "https://sites.google.com/site/fisikafjaramendia/hasiera",
+    description: "Batxilergoan ematen diren irakasgaia zientifikoen materiala. Ariketa ebatziak, teoria, galdetegiak, selektibitateko ariketa ebatziak.",
+    language: "Euskera",
+    topic: "Fisika eta Kimika",
+    rating: 5
+  },
+    {
+    title: "Física de Película",
+    url: "https://elprofedefisica.es/fdp-inicio/",
+    description: "Física de película Arturo Quiranteren web-material honek fisikaren kontzeptuak zinemako eszena ezagunen bidez azaltzen ditu, modu argi eta entretenigarrian.",
+    language: "Gaztelera",
+    topic: "Fisika",
+    rating: 3
+  }
+];
+
+function renderStars(rating) {
+  return Array.from({ length: 5 }, (_, index) => {
+    return index < rating ? "★" : "☆";
+  }).join("");
+}
+
+function getYouTubeId(url) {
+  const patterns = [
+    /youtu\.be\/([^?&]+)/,
+    /youtube\.com\/watch\?v=([^?&]+)/,
+    /youtube\.com\/embed\/([^?&]+)/
+  ];
+
+  for (const pattern of patterns) {
+    const match = url.match(pattern);
+    if (match) return match[1];
+  }
+
+  return "";
+}
+
+function getYouTubeThumbnail(url) {
+  const videoId = getYouTubeId(url);
+
+  if (!videoId) {
+    return "assets/youtube-channel.svg";
+  }
+
+  return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+}
+
+function renderRecommendedBooks() {
+  const container = document.getElementById("recommended-books");
+  if (!container) return;
+
+  container.innerHTML = recommendedBooks.map(book => `
+    <article class="recommendation-card">
+      <img class="recommendation-image" src="${book.image}" alt="${book.title}">
+      <div class="recommendation-content">
+        <h3>${book.title}</h3>
+        <p class="recommendation-author">${book.author}</p>
+        <p>${book.description}</p>
+        <div class="rating-stars">${renderStars(book.rating)}</div>
+        <span class="tag">${book.language}</span>
+      </div>
+    </article>
+  `).join("");
+}
+
+function renderRecommendedVideos(topic = "dena") {
+  const container = document.getElementById("recommended-videos");
+  if (!container) return;
+
+  const videos = topic === "dena"
+    ? recommendedVideos
+    : recommendedVideos.filter(video => video.topic === topic);
+
+  container.innerHTML = videos.map(video => `
+    <a class="recommendation-card" href="${video.url}" target="_blank" rel="noopener">
+      <img class="recommendation-image" src="${video.image || getYouTubeThumbnail(video.url)}" alt="${video.title}">
+      <div class="recommendation-content">
+        <h3>${video.title}</h3>
+        <p>${video.description}</p>
+        <div class="rating-stars">${renderStars(video.rating)}</div>
+        <div class="tags-row">
+          <span class="tag">${video.language}</span>
+          <span class="tag">${video.linkType}</span>
+        </div>
+      </div>
+    </a>
+  `).join("");
+}
+
+function renderRecommendedWebsites() {
+  const container = document.getElementById("recommended-websites");
+  if (!container) return;
+
+  container.innerHTML = recommendedWebsites.map(site => `
+    <a class="recommendation-card" href="${site.url}" target="_blank" rel="noopener">
+      <div class="recommendation-content">
+        <h3>${site.title}</h3>
+        <p>${site.description}</p>
+        <div class="rating-stars">${renderStars(site.rating)}</div>
+        <div class="tags-row">
+          <span class="tag">${site.language}</span>
+          <span class="tag">${site.topic}</span>
+        </div>
+      </div>
+    </a>
+  `).join("");
+}
+
+function updateRecommendationTabCounts() {
+  const tabCounts = {
+    liburuak: recommendedBooks.length,
+    bideoak: recommendedVideos.length,
+    weborriak: recommendedWebsites.length
+  };
+
+  document.querySelectorAll(".tab-button").forEach(button => {
+    const tab = button.dataset.tab;
+    const baseText = button.textContent.split("(")[0].trim();
+
+    button.textContent = `${baseText} (${tabCounts[tab]} baliabide)`;
+  });
+}
+
+function setupRecommendationTabs() {
+  const buttons = document.querySelectorAll(".tab-button");
+  if (!buttons.length) return;
+  
+  updateRecommendationTabCounts();
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const selectedTab = button.dataset.tab;
+
+      buttons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      document.querySelectorAll(".tab-panel").forEach(panel => {
+        panel.classList.add("hidden");
+      });
+
+      document.getElementById(`${selectedTab}-tab`).classList.remove("hidden");
+    });
+  });
+}
+
+function setupRecommendedVideoFilter() {
+  const select = document.getElementById("recommended-video-topic");
+  if (!select) return;
+
+  select.addEventListener("change", () => {
+    renderRecommendedVideos(select.value);
+  });
+}
+
+function renderRecommendationsPage() {
+  renderRecommendedBooks();
+  renderRecommendedVideos();
+  renderRecommendedWebsites();
+  setupRecommendationTabs();
+  setupRecommendedVideoFilter();
 }
 
 const classroomVideoTopicsData = {
@@ -7507,6 +7756,8 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTeacherResources();
   renderClassroomVideoTopics();
   renderKoadernoDigitalaVideos();
+  renderTeacherResources();
+  renderRecommendationsPage();
 });
 
 

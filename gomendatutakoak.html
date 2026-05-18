@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="eu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Gomendatutakoak | fisikasi</title>
+</head>
+<body>
+  <main class="container subpage">
+    <a class="back-link" href="irakasleentzako-baliabideak.html">← Irakasleentzako baliabideetara itzuli</a>
+
+    <section class="page-hero">
+      <h1>Gomendatutakoak</h1>
+      <p class="page-intro">Liburuak, bideoak eta web orrialde gomendatuak.</p>
+    </section>
+
+    <section class="results-card">
+      <div class="tabs">
+        <button class="tab-button active" data-tab="liburuak">Liburuak</button>
+        <button class="tab-button" data-tab="bideoak">Bideoak</button>
+        <button class="tab-button" data-tab="weborriak">WebOrriak</button>
+      </div>
+
+      <section id="liburuak-tab" class="tab-panel">
+        <div id="recommended-books" class="recommendations-grid"></div>
+      </section>
+
+      <section id="bideoak-tab" class="tab-panel hidden">
+        <div class="field-group video-topic-filter">
+          <label for="recommended-video-topic">Gaia</label>
+          <select id="recommended-video-topic">
+            <option value="dena">Dena</option>
+            <option value="fisika">Fisika</option>
+            <option value="kimika">Kimika</option>
+            <option value="fiki">FiKi</option>
+            <option value="matematika">Matematika</option>
+            <option value="zientzia">Zientzia</option>
+          </select>
+        </div>
+        <div id="recommended-videos" class="recommendations-grid"></div>
+      </section>
+
+      <section id="weborriak-tab" class="tab-panel hidden">
+        <div id="recommended-websites" class="recommendations-grid"></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
