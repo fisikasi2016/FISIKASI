@@ -1,4 +1,4 @@
-const CACHE_NAME = "fisikasi-42";
+const CACHE_NAME = "fisikasi-43";
 
 const urlsToCache = [
   "./",
