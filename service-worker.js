@@ -1,5 +1,4 @@
-const CACHE_NAME = "fisikasi-43";
-
+const CACHE_NAME = "fisikasi-42";
 
 const urlsToCache = [
   "./",
@@ -15,11 +14,11 @@ const urlsToCache = [
   "./irakaslearen-koaderno-digitala.html",
   "./gomendatutakoak.html",
 
-  // ICONOS Y LOGOS
+  // ICONOS
   "./assets/logo.png",
   "./assets/icon-192.svg",
 
-  // APP IMAGES
+  // APPS
   "./assets/formuapp.png",
   "./assets/gertakariapp.png",
   "./assets/koaderno-digitala.png",
@@ -47,17 +46,31 @@ const urlsToCache = [
   "./assets/thinking.png"
 ];
 
+
+// INSTALACIÓN
 self.addEventListener("install", (event) => {
   console.log("Service Worker instalándose");
+
+  // Fuerza la actualización inmediata
+  self.skipWaiting();
+
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(urlsToCache);
-    })
+    caches.open(CACHE_NAME)
+      .then((cache) => {
+        console.log("Archivos cacheados");
+        return cache.addAll(urlsToCache);
+      })
+      .catch((error) => {
+        console.error("Error cacheando archivos:", error);
+      })
   );
 });
 
+
+// ACTIVACIÓN
 self.addEventListener("activate", (event) => {
   console.log("Service Worker activado");
+
   event.waitUntil(
     caches.keys().then((keys) =>
       Promise.all(
@@ -67,9 +80,25 @@ self.addEventListener("activate", (event) => {
       )
     )
   );
+
+  // Toma control inmediato
+  self.clients.claim();
 });
 
+
+// FETCH
 self.addEventListener("fetch", (event) => {
+
+  // Para páginas HTML → intenta internet primero
+  if (event.request.mode === "navigate") {
+    event.respondWith(
+      fetch(event.request)
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // Para el resto → cache first
   event.respondWith(
     caches.match(event.request).then((response) => {
       return response || fetch(event.request);
