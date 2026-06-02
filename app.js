@@ -6923,6 +6923,16 @@ const pwaCatalog = [
     image: "./assets/formuapp.png"
   },
   {
+    id: "organikapp",
+    title: "Organikapp",
+    description: "Formulazio Organikoa lantzeko eta ikasteko Web Aplikazioa.",
+    category: "Fisika eta Kimika",
+    level: "Batxilergoa",
+    url: "https://fisikasi2016.github.io/OrganikAPP/",
+    icon: "⌬",
+    image: "./assets/organikapp.png"
+  },
+  {
     id: "aditzapp-indikatiboa",
     title: "AditzApp Indikatiboa",
     description: "Indikatiboko aditz-formak lantzeko aplikazioa.",
@@ -7375,7 +7385,18 @@ const recommendedVideos = [
     language: "Gaztelera",
     topic: "fiki",
     linkType: "Kanala"
+  },
+  {
+    url: "https://www.youtube.com/user/CienciaDeSofa",
+    title: "Ciencia de Sofa",
+    image: "",
+    description: "",
+    rating: 3,
+    language: "Gaztelera",
+    topic: "fiki",
+    linkType: "Kanala"
   }
+  
 
 ];
 
@@ -7396,14 +7417,34 @@ const recommendedWebsites = [
     topic: "Fisika eta Kimika",
     rating: 5
   },
-    {
+  {
     title: "Física de Película",
     url: "https://elprofedefisica.es/fdp-inicio/",
     description: "Física de película Arturo Quiranteren web-material honek fisikaren kontzeptuak zinemako eszena ezagunen bidez azaltzen ditu, modu argi eta entretenigarrian.",
     language: "Gaztelera",
     topic: "Fisika",
     rating: 3
+  },
+  {
+    title: "Science on Stage",
+    url: "https://scienceonstage.ie/resources/",
+    description: "",
+    language: "Ingelesa",
+    topic: "Fiki",
+    rating: 5
+  },
+  {
+    title: "Bloga: fq-experimentos",
+    url: "https://fq-experimentos.blogspot.com/",
+    description: "",
+    language: "Gaztelera",
+    topic: "Fiki",
+    rating: 4
   }
+  
+//cansat
+//la cuchara menguante
+  
 ];
 
 function renderStars(rating) {
