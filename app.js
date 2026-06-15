@@ -7082,7 +7082,130 @@ const teacherResourcesData = [
       {
         type: "folder",
         title: "Formulazioa",
-        children: []
+        children: [
+          {
+            type: "link",
+            title: "Konposatu bitarren ariketak",
+            url: "https://drive.google.com/file/d/1KfuNnGbOtjrorv83sPWKGAi5TukYEBm9/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Hidruro Metalikoa (Ariketak)",
+            url: "https://drive.google.com/file/d/1op1J6Djru8m2s45zAcNAeIc5cBSOLGrm/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+
+          {
+            type: "link",
+            title: "Hidruro Metalikoak (Erantzunak)",
+            url: "https://drive.google.com/file/d/1TzL8-AxL3Fww-syI5pYCQWwteRkH65GQ/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Oxido Metalikoak (Ariketak)",
+            url: "https://drive.google.com/file/d/1LJ0Q8hpiwdPEBlK99gu0SomkoPOQU0au/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Oxido Metalikoak (Erantzunak)",
+            url: "https://drive.google.com/file/d/1wzUAHlecgIn8OtrBC0K81yZWX-Xm0VEm/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Hidruro Ez-Metalikoak (Ariketak)",
+            url: "https://drive.google.com/file/d/1xeN1J9YIFdujLny8zn-5HczP79AEIsWV/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Hidruro Ez-Metalikoak (Erantzunak)",
+            url: "https://drive.google.com/file/d/1bcplamwUAYZ01vpPpbElhNyF_8eIbkqf/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Anhidridoak (Ariketak)",
+            url: "https://drive.google.com/file/d/1UQil2mRek0qUNMN2kEPQeC_YcFPcohZU/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Anhidridoak (Erantzunak)",
+            url: "https://drive.google.com/file/d/1lDsYDN5bq_AGXMBH14qw3QxCv0TxLvQT/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Gatz Bitarrak: metala + ezmetala (Ariketak)",
+            url: "https://drive.google.com/file/d/1t85Yaotyp1EU1-tO8eqbJI9h6zKV3FtF/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Gatz Bitarrak: metala + ezmetala (Emaitzak)",
+            url: "https://drive.google.com/file/d/1X40svE90dUnE-8sLUdKU1IPhuwdbNMs2/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+
+          {
+            type: "link",
+            title: "Gatz Bitarrak: ezmetala + ezmetala (Ariketak)",
+            url: "https://drive.google.com/file/d/1iAzShOFDTYh6NGKooweBeWLLyNRzu6Xa/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Gatz Bitarrak: ezmetala + ezmetala (Emaitzak)",
+            url: "https://drive.google.com/file/d/1cnqrIW0dCQNMTP6CUWWjHP7ev2bLujB4/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Dena Nahastuta (Ariketak)",
+            url: "https://drive.google.com/file/d/1WbuI-FC5i0HHA-CWu_Ex7dMmDg05YHFH/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Dena Nahastuta (Emaitzak)",
+            url: "https://drive.google.com/file/d/1NTwzd9UEfa85DnPsygndBs_0VO-suyGg/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          }
+        ]
       },
       {
         type: "folder",
@@ -7090,10 +7213,197 @@ const teacherResourcesData = [
         children: [
           {
             type: "link",
-            title: "Ariketa bilduma",
-            url: "https://drive.google.com/file/d/1yRLAShHb2y4HDlSOnyz6cHgZDQpH62Kv/view?usp=sharing",
+            title: "Doiketak (Enuntziatuak)",
+            url: "https://drive.google.com/file/d/1lpI6jGnVjTZ1rvVG3fuhHw9BHO6B6J3S/view?usp=drive_link",
             resourceType: "dokumentua",
-            description: "Bideoetan ebatzita dauden ariketen enuntziatuak"
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Doiketak (Emaitzak)",
+            url: "https://drive.google.com/file/d/1IU2l60a0qv5VsrAovesgUgC-WZF0BQFQ/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Erreakzio Kimikoei buruzko ariketak",
+            url: "https://drive.google.com/file/d/1HztXeL9KVSem2jRONkTN57ha1Y-jHub4/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          }
+        ]
+      },
+      {
+        type: "folder",
+        title: "Materia",
+        children: [
+          {
+            type: "link",
+            title: "Materiaren egoera fisikoa",
+            url: "https://drive.google.com/file/d/1QM0siUwuGIU1XRBJFjjeaYADaB-bxfVo/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          },
+          {
+            type: "link",
+            title: "Materiaren egitura",
+            url: "https://drive.google.com/file/d/15tzG-S_xbi-Jpo6t3_KiaTDWoEWdt1JQ/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          }
+        ]
+      },
+      {
+        type: "folder",
+        title: "Atomoa",
+        children: [
+          {
+            type: "link",
+            title: "Elementu eta Konposatu kimikoak",
+            url: "https://drive.google.com/file/d/1vF3Nnb-7IDBGH7Z1yw3sAL9lJb20HL2G/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          }
+        ]
+      },
+      {
+        type: "folder",
+        title: "Notazio Zientifikoa",
+        children: [
+          {
+            type: "link",
+            title: "Notazio Zientifikoa eta Neurketak",
+            url: "https://drive.google.com/file/d/1WN4gLr-bWit4v34EfMSRwletTMrO4YZ9/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
+          }
+        ]
+      },
+      {
+        type: "folder",
+        title: "Dinamika",
+        children: [
+          {
+            type: "link",
+            title: "Mekanikari buruzko test-a",
+            url: "https://drive.google.com/file/d/1WN4gLr-bWit4v34EfMSRwletTMrO4YZ9/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: "BATX"
+          }
+        ]
+      },
+      {
+        type: "folder",
+        title: "Zinematika",
+        children: [
+          {
+            type: "folder",
+            title: "PHET simuladorearekin lan egiteko",
+            children: [
+              {
+                type: "link",
+                title: "Nola erabili PHET simuladorea zinematika kualitatiboki lantzeko",
+                url: "https://drive.google.com/file/d/10j35yIaQjJXCVCOkRI1w-C0s_JtzmxlJ/view?usp=drive_link",
+                resourceType: "dokumentua",
+                description: "",
+                tag: "DBH, Kualitatiboa, Grafikoak"
+              },
+              {
+                type: "link",
+                title: "HZU (Proiektatzeko)",
+                url: "https://drive.google.com/file/d/1QTHDTF8w-GSKgVwFJchXnq8H_nsonnFI/view?usp=drive_link",
+                resourceType: "dokumentua",
+                description: "",
+                tag: "DBH, Kualitatiboa, Grafikoak"
+              },
+              {
+                type: "link",
+                title: "HZU (Ikasleen txostena)",
+                url: "https://drive.google.com/file/d/1aAMsY-7XsL0T1WM9FGNI1yI1NyBZEva1/view?usp=drive_link",
+                resourceType: "dokumentua",
+                description: "",
+                tag: "DBH, Kualitatiboa, Grafikoak"
+              },
+              {
+                type: "link",
+                title: "HZU (Ikasleentzako ariketa fitxa)",
+                url: "https://drive.google.com/file/d/1UDhNAq_FBDXHYeLhi-aqkuOvBOuGDinQ/view?usp=drive_link",
+                resourceType: "dokumentua",
+                description: "",
+                tag: "DBH, Kualitatiboa, Grafikoak"
+              },
+              {
+                type: "link",
+                title: "HZUA (Proiektatzeko)",
+                url: "https://drive.google.com/file/d/1RVFXwM-hI7TSEpzhS2yPnwtTaIegkGYL/view?usp=drive_link",
+                resourceType: "dokumentua",
+                description: "",
+                tag: "DBH, Kualitatiboa, Grafikoak"
+              },
+              {
+                type: "link",
+                title: "HZUA (Ikasleen txostena)",
+                url: "https://drive.google.com/file/d/1O9me_u_Gw1HvSYZjogZkEyqQrWrldiy0/view?usp=drive_link",
+                resourceType: "dokumentua",
+                description: "",
+                tag: "DBH, Kualitatiboa, Grafikoak"
+              }
+            ]
+          },
+          {
+            type: "link",
+            title: "Ariketa Bilduma",
+            url: "https://drive.google.com/file/d/1c3vM2mJQxdKVKyCmpRkjUppFKhKAIYRH/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: "DBH, Batxi1"
+          },
+          {
+            type: "link",
+            title: "HZU + HZUA + Higidura Bertikala (DBH4)",
+            url: "https://drive.google.com/file/d/1ggocKRaK93qBqspdUpvMpeaT3otx3sY9/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: "DBH"
+          },
+          {
+            type: "link",
+            title: "MRU + MRUA + Movimiento Vertcial (DBH4)",
+            url: "https://drive.google.com/file/d/1OtfqHCRzQuNnJ_BXjicnka34d0jrBvQ9/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: "DBH"
+          }
+        ]
+      },
+      {
+        type: "folder",
+        title: "Lana eta Energia",
+        children: [
+          {
+            type: "link",
+            title: "Ariketa bilduma",
+            url: "https://drive.google.com/file/d/1CPukXTI4emMRczBgaKgjzkiNknZlJxPX/view?usp=drive_link",
+            resourceType: "dokumentua",
+            description: "",
+            tag: "DBH, Batxi1"
+          },
+          {
+            type: "link",
+            title: "Birpaso ariketak",
+            url: "https://drive.google.com/file/d/1Kx4uiBu0DGdwno8QyVnKS7cyuWzjHx8P/view?usp=sharing",
+            resourceType: "dokumentua",
+            description: "",
+            tag: ""
           }
         ]
       }
@@ -7302,6 +7612,14 @@ const recommendedBooks = [
     language: "Gaztelera"
   },
   {
+    title: "La cuchara menguante",
+    author: "Sam Kean",
+    image: "assets/liburuak/cuchara-menguante.png",
+    description: "Taula periodikoari buruzko berizitasun asko, modu oso argi eta erakargarrian idatzita. Klasean aipatzeko datu bitxi asko dituena.",
+    rating: 5,
+    language: "Gaztelera"
+  },
+  {
     title: "Una Fisica para todos",
     author: "Academia Osorio",
     image: "assets/liburuak/fisica-para-todos.png",
@@ -7440,9 +7758,27 @@ const recommendedWebsites = [
     language: "Gaztelera",
     topic: "Fiki",
     rating: 4
+  },
+  {
+    title: "Fisika Selektibitateari buruzko informazioa",
+    url: "https://usap-pau-2026.netlify.app/",
+    description: "Webgune honetan, Selektibitateko fisika azterketaren koordinatzaileek argitaratutako jarriabideak eta adibideak",
+    language: "Euskera",
+    topic: "Fisika",
+    rating: 3
+  },
+  {
+    title: "Cansat",
+    url: "https://esero.es/cansat/",
+    description: "STEAM proiektua zeinetan ikasleek kohete bat diseinatu behar duten atomosferaren neurketak egiteko",
+    language: "Gaztelera",
+    topic: "Fiki",
+    rating: 4
   }
+
   
-//cansat
+  
+
 //la cuchara menguante
   
 ];
