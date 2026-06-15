@@ -7315,7 +7315,7 @@ const teacherResourcesData = [
                 url: "https://drive.google.com/file/d/10j35yIaQjJXCVCOkRI1w-C0s_JtzmxlJ/view?usp=drive_link",
                 resourceType: "dokumentua",
                 description: "",
-                tag: "DBH, Kualitatiboa, Grafikoak"
+                tag: "Gaztelera, DBH, Kualitatiboa, Grafikoak"
               },
               {
                 type: "link",
@@ -7381,7 +7381,7 @@ const teacherResourcesData = [
             url: "https://drive.google.com/file/d/1OtfqHCRzQuNnJ_BXjicnka34d0jrBvQ9/view?usp=drive_link",
             resourceType: "dokumentua",
             description: "",
-            tag: "DBH"
+            tag: "Gaztelera,DBH"
           }
         ]
       },
