@@ -6971,6 +6971,16 @@ const pwaCatalog = [
     url: "https://fisikasi2016.github.io/GertakariAPP/",
     icon: "🎯",
     image: "./assets/gertakariapp.png"
+  },
+  {
+    id: "Cajón desastre",
+    title: "Cajón De(s)sastre",
+    description: "Ordenagailuan dituzun argazkiak (eta bestelakoak) antolatzeko modu erreza.",
+    category: "Bestelakoak",
+    level: "Gazteleraz",
+    url: "memorieslide.vercel.app",
+    icon: "🎯",
+    image: "./assets/cajon.png"
   }
 ];
 
@@ -7041,7 +7051,7 @@ function renderPWACatalog() {
     return;
   }
 
-  const subjectsOrder = ["Euskara", "Fisika eta Kimika", "Historia"];
+  const subjectsOrder = ["Euskara", "Fisika eta Kimika", "Historia","Bestelakoak"];
 
   subjectsOrder.forEach((subject) => {
     const apps = pwaCatalog.filter((app) => app.category === subject);
