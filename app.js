@@ -6978,7 +6978,7 @@ const pwaCatalog = [
     description: "Ordenagailuan dituzun argazkiak (eta bestelakoak) antolatzeko modu erreza.",
     category: "Bestelakoak",
     level: "Gazteleraz",
-    url: "memorieslide.vercel.app",
+    url: "https://cajondesastre-lovat.vercel.app/",
     icon: "🎯",
     image: "./assets/cajon.png"
   }
