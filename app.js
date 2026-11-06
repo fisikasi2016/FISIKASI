@@ -6933,34 +6933,14 @@ const pwaCatalog = [
     image: "./assets/organikapp.png"
   },
   {
-    id: "aditzapp-indikatiboa",
-    title: "AditzApp Indikatiboa",
-    description: "Indikatiboko aditz-formak lantzeko aplikazioa.",
+    id: "aditzapp",
+    title: "AditzApp",
+    description: "Euskera aditzak birpasatzeko eta lantzeko aplikazioa",
     category: "Euskara",
     level: "DBH",
-    url: "https://fisikasi2016.github.io/aditzapp-indikatibo/",
+    url: "https://fisikasi2016.github.io/aditzapp/",
     icon: "📝",
-    image: "./assets/aditzapp-indikatiboa.png"
-  },
-  {
-    id: "aditzapp-baldintza",
-    title: "AditzApp Baldintza",
-    description: "Baldintza formak praktikatzeko baliabidea.",
-    category: "Euskara",
-    level: "DBH",
-    url: "https://fisikasi2016.github.io/aditzapp-baldintza/",
-    icon: "📘",
-    image: "./assets/aditzapp-baldintza.png"
-  },
-  {
-    id: "aditzapp-azterketa",
-    title: "AditzApp Azterketa",
-    description: "Aditzekin azterketa moduko praktika egiteko Web Aplikazioa.",
-    category: "Euskara",
-    level: "DBH",
-    url: "https://fisikasi2016.github.io/aditzapp-azterketa/",
-    icon: "🎯",
-    image: "./assets/aditzapp-azterketa.png"
+    image: "./assets/aditzapp.png"
   },
   {
     id: "GertakariAPP",
